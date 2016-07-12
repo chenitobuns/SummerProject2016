@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5BC09AD1D346E4C00135C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09AC1D346E4C00135C89 /* AppDelegate.swift */; };
+		F5BC09AF1D346E4C00135C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09AE1D346E4C00135C89 /* ViewController.swift */; };
+		F5BC09B21D346E4C00135C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BC09B01D346E4C00135C89 /* Main.storyboard */; };
+		F5BC09B51D346E4C00135C89 /* pandaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09B31D346E4C00135C89 /* pandaModel.xcdatamodeld */; };
+		F5BC09B71D346E4C00135C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BC09B61D346E4C00135C89 /* Assets.xcassets */; };
+		F5BC09BA1D346E4C00135C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BC09B81D346E4C00135C89 /* LaunchScreen.storyboard */; };
+		F5BC09C51D346E4C00135C89 /* pandaModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09C41D346E4C00135C89 /* pandaModelTests.swift */; };
+		F5BC09D01D346E4D00135C89 /* pandaModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09CF1D346E4D00135C89 /* pandaModelUITests.swift */; };
+		F5BC09E11D346EAE00135C89 /* parentPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09E01D346EAE00135C89 /* parentPost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5BC09C11D346E4C00135C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BC09A11D346E4C00135C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BC09A81D346E4C00135C89;
+			remoteInfo = pandaModel;
+		};
+		F5BC09CC1D346E4C00135C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BC09A11D346E4C00135C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BC09A81D346E4C00135C89;
+			remoteInfo = pandaModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5BC09A91D346E4C00135C89 /* pandaModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pandaModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BC09AC1D346E4C00135C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5BC09AE1D346E4C00135C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5BC09B11D346E4C00135C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5BC09B41D346E4C00135C89 /* pandaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pandaModel.xcdatamodel; sourceTree = "<group>"; };
+		F5BC09B61D346E4C00135C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BC09B91D346E4C00135C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5BC09BB1D346E4C00135C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BC09C01D346E4C00135C89 /* pandaModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pandaModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BC09C41D346E4C00135C89 /* pandaModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pandaModelTests.swift; sourceTree = "<group>"; };
+		F5BC09C61D346E4C00135C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BC09CB1D346E4C00135C89 /* pandaModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pandaModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BC09CF1D346E4D00135C89 /* pandaModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pandaModelUITests.swift; sourceTree = "<group>"; };
+		F5BC09D11D346E4D00135C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BC09E01D346EAE00135C89 /* parentPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parentPost.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BC09A61D346E4C00135C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC09BD1D346E4C00135C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC09C81D346E4C00135C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5BC09A01D346E4C00135C89 = {
+			isa = PBXGroup;
+			children = (
+				F5BC09AB1D346E4C00135C89 /* pandaModel */,
+				F5BC09C31D346E4C00135C89 /* pandaModelTests */,
+				F5BC09CE1D346E4C00135C89 /* pandaModelUITests */,
+				F5BC09AA1D346E4C00135C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BC09AA1D346E4C00135C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC09A91D346E4C00135C89 /* pandaModel.app */,
+				F5BC09C01D346E4C00135C89 /* pandaModelTests.xctest */,
+				F5BC09CB1D346E4C00135C89 /* pandaModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BC09AB1D346E4C00135C89 /* pandaModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC09AC1D346E4C00135C89 /* AppDelegate.swift */,
+				F5BC09DD1D346E6000135C89 /* Model */,
+				F5BC09AE1D346E4C00135C89 /* ViewController.swift */,
+				F5BC09B01D346E4C00135C89 /* Main.storyboard */,
+				F5BC09B61D346E4C00135C89 /* Assets.xcassets */,
+				F5BC09B81D346E4C00135C89 /* LaunchScreen.storyboard */,
+				F5BC09BB1D346E4C00135C89 /* Info.plist */,
+				F5BC09B31D346E4C00135C89 /* pandaModel.xcdatamodeld */,
+			);
+			path = pandaModel;
+			sourceTree = "<group>";
+		};
+		F5BC09C31D346E4C00135C89 /* pandaModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC09C41D346E4C00135C89 /* pandaModelTests.swift */,
+				F5BC09C61D346E4C00135C89 /* Info.plist */,
+			);
+			path = pandaModelTests;
+			sourceTree = "<group>";
+		};
+		F5BC09CE1D346E4C00135C89 /* pandaModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC09CF1D346E4D00135C89 /* pandaModelUITests.swift */,
+				F5BC09D11D346E4D00135C89 /* Info.plist */,
+			);
+			path = pandaModelUITests;
+			sourceTree = "<group>";
+		};
+		F5BC09DD1D346E6000135C89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC09E01D346EAE00135C89 /* parentPost.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BC09A81D346E4C00135C89 /* pandaModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BC09D41D346E4D00135C89 /* Build configuration list for PBXNativeTarget "pandaModel" */;
+			buildPhases = (
+				F5BC09A51D346E4C00135C89 /* Sources */,
+				F5BC09A61D346E4C00135C89 /* Frameworks */,
+				F5BC09A71D346E4C00135C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pandaModel;
+			productName = pandaModel;
+			productReference = F5BC09A91D346E4C00135C89 /* pandaModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5BC09BF1D346E4C00135C89 /* pandaModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BC09D71D346E4D00135C89 /* Build configuration list for PBXNativeTarget "pandaModelTests" */;
+			buildPhases = (
+				F5BC09BC1D346E4C00135C89 /* Sources */,
+				F5BC09BD1D346E4C00135C89 /* Frameworks */,
+				F5BC09BE1D346E4C00135C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BC09C21D346E4C00135C89 /* PBXTargetDependency */,
+			);
+			name = pandaModelTests;
+			productName = pandaModelTests;
+			productReference = F5BC09C01D346E4C00135C89 /* pandaModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5BC09CA1D346E4C00135C89 /* pandaModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BC09DA1D346E4D00135C89 /* Build configuration list for PBXNativeTarget "pandaModelUITests" */;
+			buildPhases = (
+				F5BC09C71D346E4C00135C89 /* Sources */,
+				F5BC09C81D346E4C00135C89 /* Frameworks */,
+				F5BC09C91D346E4C00135C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BC09CD1D346E4C00135C89 /* PBXTargetDependency */,
+			);
+			name = pandaModelUITests;
+			productName = pandaModelUITests;
+			productReference = F5BC09CB1D346E4C00135C89 /* pandaModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BC09A11D346E4C00135C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ares;
+				TargetAttributes = {
+					F5BC09A81D346E4C00135C89 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F5BC09BF1D346E4C00135C89 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5BC09A81D346E4C00135C89;
+					};
+					F5BC09CA1D346E4C00135C89 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5BC09A81D346E4C00135C89;
+					};
+				};
+			};
+			buildConfigurationList = F5BC09A41D346E4C00135C89 /* Build configuration list for PBXProject "pandaModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BC09A01D346E4C00135C89;
+			productRefGroup = F5BC09AA1D346E4C00135C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BC09A81D346E4C00135C89 /* pandaModel */,
+				F5BC09BF1D346E4C00135C89 /* pandaModelTests */,
+				F5BC09CA1D346E4C00135C89 /* pandaModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BC09A71D346E4C00135C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC09BA1D346E4C00135C89 /* LaunchScreen.storyboard in Resources */,
+				F5BC09B71D346E4C00135C89 /* Assets.xcassets in Resources */,
+				F5BC09B21D346E4C00135C89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC09BE1D346E4C00135C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC09C91D346E4C00135C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BC09A51D346E4C00135C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC09B51D346E4C00135C89 /* pandaModel.xcdatamodeld in Sources */,
+				F5BC09AF1D346E4C00135C89 /* ViewController.swift in Sources */,
+				F5BC09AD1D346E4C00135C89 /* AppDelegate.swift in Sources */,
+				F5BC09E11D346EAE00135C89 /* parentPost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC09BC1D346E4C00135C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC09C51D346E4C00135C89 /* pandaModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC09C71D346E4C00135C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC09D01D346E4D00135C89 /* pandaModelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5BC09C21D346E4C00135C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BC09A81D346E4C00135C89 /* pandaModel */;
+			targetProxy = F5BC09C11D346E4C00135C89 /* PBXContainerItemProxy */;
+		};
+		F5BC09CD1D346E4C00135C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BC09A81D346E4C00135C89 /* pandaModel */;
+			targetProxy = F5BC09CC1D346E4C00135C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5BC09B01D346E4C00135C89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BC09B11D346E4C00135C89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5BC09B81D346E4C00135C89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BC09B91D346E4C00135C89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5BC09D21D346E4D00135C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5BC09D31D346E4D00135C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BC09D51D346E4D00135C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pandaModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ares.pandaModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5BC09D61D346E4D00135C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pandaModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ares.pandaModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5BC09D81D346E4D00135C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pandaModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ares.pandaModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pandaModel.app/pandaModel";
+			};
+			name = Debug;
+		};
+		F5BC09D91D346E4D00135C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pandaModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ares.pandaModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pandaModel.app/pandaModel";
+			};
+			name = Release;
+		};
+		F5BC09DB1D346E4D00135C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pandaModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ares.pandaModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pandaModel;
+			};
+			name = Debug;
+		};
+		F5BC09DC1D346E4D00135C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pandaModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ares.pandaModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pandaModel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BC09A41D346E4C00135C89 /* Build configuration list for PBXProject "pandaModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC09D21D346E4D00135C89 /* Debug */,
+				F5BC09D31D346E4D00135C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BC09D41D346E4D00135C89 /* Build configuration list for PBXNativeTarget "pandaModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC09D51D346E4D00135C89 /* Debug */,
+				F5BC09D61D346E4D00135C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5BC09D71D346E4D00135C89 /* Build configuration list for PBXNativeTarget "pandaModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC09D81D346E4D00135C89 /* Debug */,
+				F5BC09D91D346E4D00135C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5BC09DA1D346E4D00135C89 /* Build configuration list for PBXNativeTarget "pandaModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC09DB1D346E4D00135C89 /* Debug */,
+				F5BC09DC1D346E4D00135C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5BC09B31D346E4C00135C89 /* pandaModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5BC09B41D346E4C00135C89 /* pandaModel.xcdatamodel */,
+			);
+			currentVersion = F5BC09B41D346E4C00135C89 /* pandaModel.xcdatamodel */;
+			path = pandaModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5BC09A11D346E4C00135C89 /* Project object */;
+}
