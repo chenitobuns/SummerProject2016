@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20C922C1D35FC380085CB5A /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20C922B1D35FC380085CB5A /* MaterialTextField.swift */; };
 		E28B4E671D34B1CA00823CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B4E661D34B1CA00823CB8 /* AppDelegate.swift */; };
 		E28B4E691D34B1CA00823CB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B4E681D34B1CA00823CB8 /* ViewController.swift */; };
 		E28B4E6C1D34B1CA00823CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28B4E6A1D34B1CA00823CB8 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 		E28B4EA11D34B31B00823CB8 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E28B4E9D1D34B31B00823CB8 /* NotoSans-BoldItalic.ttf */; };
 		E28B4EA21D34B31B00823CB8 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E28B4E9E1D34B31B00823CB8 /* NotoSans-Italic.ttf */; };
 		E28B4EA31D34B31B00823CB8 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E28B4E9F1D34B31B00823CB8 /* NotoSans-Regular.ttf */; };
+		E28B4EA51D35B7F300823CB8 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B4EA41D35B7F300823CB8 /* MaterialView.swift */; };
+		E28B4EA91D35B88700823CB8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B4EA81D35B88700823CB8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E20C922B1D35FC380085CB5A /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		E28B4E631D34B1CA00823CB8 /* UPanda_Official.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPanda_Official.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28B4E661D34B1CA00823CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E28B4E681D34B1CA00823CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		E28B4E9D1D34B31B00823CB8 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		E28B4E9E1D34B31B00823CB8 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		E28B4E9F1D34B31B00823CB8 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		E28B4EA41D35B7F300823CB8 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		E28B4EA81D35B88700823CB8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		E28B4E651D34B1CA00823CB8 /* UPanda_Official */ = {
 			isa = PBXGroup;
 			children = (
+				E28B4EA61D35B86900823CB8 /* Util */,
 				E28B4E9B1D34B2A900823CB8 /* Resources */,
 				E28B4E9A1D34B29D00823CB8 /* Model */,
 				E28B4E991D34B29800823CB8 /* View */,
@@ -150,6 +157,8 @@
 		E28B4E991D34B29800823CB8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E28B4EA41D35B7F300823CB8 /* MaterialView.swift */,
+				E20C922B1D35FC380085CB5A /* MaterialTextField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -170,6 +179,14 @@
 				E28B4E9F1D34B31B00823CB8 /* NotoSans-Regular.ttf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E28B4EA61D35B86900823CB8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E28B4EA81D35B88700823CB8 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +257,7 @@
 				TargetAttributes = {
 					E28B4E621D34B1CA00823CB8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5HJ288F9BN;
 					};
 					E28B4E791D34B1CA00823CB8 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -307,9 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20C922C1D35FC380085CB5A /* MaterialTextField.swift in Sources */,
+				E28B4EA91D35B88700823CB8 /* Constants.swift in Sources */,
 				E28B4E6F1D34B1CA00823CB8 /* UPanda_Official.xcdatamodeld in Sources */,
 				E28B4E691D34B1CA00823CB8 /* ViewController.swift in Sources */,
 				E28B4E671D34B1CA00823CB8 /* AppDelegate.swift in Sources */,
+				E28B4EA51D35B7F300823CB8 /* MaterialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,10 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UPanda_Official/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kchen.UPanda-Official";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -462,10 +486,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UPanda_Official/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kchen.UPanda-Official";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -534,6 +561,7 @@
 				E28B4E901D34B1CA00823CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E28B4E911D34B1CA00823CB8 /* Build configuration list for PBXNativeTarget "UPanda_OfficialTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +570,7 @@
 				E28B4E931D34B1CA00823CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E28B4E941D34B1CA00823CB8 /* Build configuration list for PBXNativeTarget "UPanda_OfficialUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +579,7 @@
 				E28B4E961D34B1CA00823CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
