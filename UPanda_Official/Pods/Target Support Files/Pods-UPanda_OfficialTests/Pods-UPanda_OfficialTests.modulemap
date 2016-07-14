@@ -1,0 +1,6 @@
+framework module Pods_UPanda_OfficialTests {
+  umbrella header "Pods-UPanda_OfficialTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

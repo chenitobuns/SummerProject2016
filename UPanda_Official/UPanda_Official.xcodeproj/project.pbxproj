@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50FA4E86EA7FD2C996AE433B /* Pods_UPanda_OfficialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70506CF4EB1D6FB1C673AB3 /* Pods_UPanda_OfficialUITests.framework */; };
+		93600FD0DAC579C46B5A2B0D /* Pods_UPanda_OfficialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674AE4BEB6038796681D2268 /* Pods_UPanda_OfficialTests.framework */; };
+		93F190435A75CC7D11F86AAB /* Pods_UPanda_Official.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D346B4D879ACD2A7EB6FC596 /* Pods_UPanda_Official.framework */; };
+		E2EB937A1D37675A006E9478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB93791D37675A006E9478 /* AppDelegate.swift */; };
+		E2EB937C1D37675A006E9478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB937B1D37675A006E9478 /* ViewController.swift */; };
+		E2EB937F1D37675A006E9478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EB937D1D37675A006E9478 /* Main.storyboard */; };
+		E2EB93821D37675A006E9478 /* UPanda_Official.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2EB93801D37675A006E9478 /* UPanda_Official.xcdatamodeld */; };
+		E2EB93841D37675A006E9478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EB93831D37675A006E9478 /* Assets.xcassets */; };
+		E2EB93871D37675A006E9478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EB93851D37675A006E9478 /* LaunchScreen.storyboard */; };
+		E2EB93921D37675A006E9478 /* UPanda_OfficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB93911D37675A006E9478 /* UPanda_OfficialTests.swift */; };
+		E2EB939D1D37675A006E9478 /* UPanda_OfficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB939C1D37675A006E9478 /* UPanda_OfficialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2EB938E1D37675A006E9478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2EB936E1D37675A006E9478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EB93751D37675A006E9478;
+			remoteInfo = UPanda_Official;
+		};
+		E2EB93991D37675A006E9478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2EB936E1D37675A006E9478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EB93751D37675A006E9478;
+			remoteInfo = UPanda_Official;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B9CE992C50FC6064DB2378F /* Pods-UPanda_OfficialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPanda_OfficialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UPanda_OfficialUITests/Pods-UPanda_OfficialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB98C25671348092A886E8A /* Pods-UPanda_OfficialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPanda_OfficialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UPanda_OfficialUITests/Pods-UPanda_OfficialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		674AE4BEB6038796681D2268 /* Pods_UPanda_OfficialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPanda_OfficialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7177898C144A89D9EB92AA1D /* Pods-UPanda_Official.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPanda_Official.release.xcconfig"; path = "Pods/Target Support Files/Pods-UPanda_Official/Pods-UPanda_Official.release.xcconfig"; sourceTree = "<group>"; };
+		946A1B8EB6D4F82D9B44D290 /* Pods-UPanda_OfficialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPanda_OfficialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UPanda_OfficialTests/Pods-UPanda_OfficialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		998D7A821ECAC25AB256005C /* Pods-UPanda_Official.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPanda_Official.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UPanda_Official/Pods-UPanda_Official.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5AD108791CAA5033B8B278 /* Pods-UPanda_OfficialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPanda_OfficialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UPanda_OfficialTests/Pods-UPanda_OfficialTests.release.xcconfig"; sourceTree = "<group>"; };
+		D346B4D879ACD2A7EB6FC596 /* Pods_UPanda_Official.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPanda_Official.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EB93761D37675A006E9478 /* UPanda_Official.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPanda_Official.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EB93791D37675A006E9478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2EB937B1D37675A006E9478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2EB937E1D37675A006E9478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2EB93811D37675A006E9478 /* UPanda_Official.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UPanda_Official.xcdatamodel; sourceTree = "<group>"; };
+		E2EB93831D37675A006E9478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2EB93861D37675A006E9478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2EB93881D37675A006E9478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EB938D1D37675A006E9478 /* UPanda_OfficialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPanda_OfficialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EB93911D37675A006E9478 /* UPanda_OfficialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPanda_OfficialTests.swift; sourceTree = "<group>"; };
+		E2EB93931D37675A006E9478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EB93981D37675A006E9478 /* UPanda_OfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPanda_OfficialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EB939C1D37675A006E9478 /* UPanda_OfficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPanda_OfficialUITests.swift; sourceTree = "<group>"; };
+		E2EB939E1D37675A006E9478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70506CF4EB1D6FB1C673AB3 /* Pods_UPanda_OfficialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPanda_OfficialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2EB93731D37675A006E9478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F190435A75CC7D11F86AAB /* Pods_UPanda_Official.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EB938A1D37675A006E9478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93600FD0DAC579C46B5A2B0D /* Pods_UPanda_OfficialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EB93951D37675A006E9478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FA4E86EA7FD2C996AE433B /* Pods_UPanda_OfficialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0762DA5C242645120EF4F81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				998D7A821ECAC25AB256005C /* Pods-UPanda_Official.debug.xcconfig */,
+				7177898C144A89D9EB92AA1D /* Pods-UPanda_Official.release.xcconfig */,
+				946A1B8EB6D4F82D9B44D290 /* Pods-UPanda_OfficialTests.debug.xcconfig */,
+				AB5AD108791CAA5033B8B278 /* Pods-UPanda_OfficialTests.release.xcconfig */,
+				1FB98C25671348092A886E8A /* Pods-UPanda_OfficialUITests.debug.xcconfig */,
+				1B9CE992C50FC6064DB2378F /* Pods-UPanda_OfficialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7FCA66F2CD64B48EDAEBC4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D346B4D879ACD2A7EB6FC596 /* Pods_UPanda_Official.framework */,
+				674AE4BEB6038796681D2268 /* Pods_UPanda_OfficialTests.framework */,
+				E70506CF4EB1D6FB1C673AB3 /* Pods_UPanda_OfficialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2EB936D1D37675A006E9478 = {
+			isa = PBXGroup;
+			children = (
+				E2EB93781D37675A006E9478 /* UPanda_Official */,
+				E2EB93901D37675A006E9478 /* UPanda_OfficialTests */,
+				E2EB939B1D37675A006E9478 /* UPanda_OfficialUITests */,
+				E2EB93771D37675A006E9478 /* Products */,
+				A0762DA5C242645120EF4F81 /* Pods */,
+				A7FCA66F2CD64B48EDAEBC4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2EB93771D37675A006E9478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2EB93761D37675A006E9478 /* UPanda_Official.app */,
+				E2EB938D1D37675A006E9478 /* UPanda_OfficialTests.xctest */,
+				E2EB93981D37675A006E9478 /* UPanda_OfficialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2EB93781D37675A006E9478 /* UPanda_Official */ = {
+			isa = PBXGroup;
+			children = (
+				E2EB93791D37675A006E9478 /* AppDelegate.swift */,
+				E2EB937B1D37675A006E9478 /* ViewController.swift */,
+				E2EB937D1D37675A006E9478 /* Main.storyboard */,
+				E2EB93831D37675A006E9478 /* Assets.xcassets */,
+				E2EB93851D37675A006E9478 /* LaunchScreen.storyboard */,
+				E2EB93881D37675A006E9478 /* Info.plist */,
+				E2EB93801D37675A006E9478 /* UPanda_Official.xcdatamodeld */,
+			);
+			path = UPanda_Official;
+			sourceTree = "<group>";
+		};
+		E2EB93901D37675A006E9478 /* UPanda_OfficialTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2EB93911D37675A006E9478 /* UPanda_OfficialTests.swift */,
+				E2EB93931D37675A006E9478 /* Info.plist */,
+			);
+			path = UPanda_OfficialTests;
+			sourceTree = "<group>";
+		};
+		E2EB939B1D37675A006E9478 /* UPanda_OfficialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2EB939C1D37675A006E9478 /* UPanda_OfficialUITests.swift */,
+				E2EB939E1D37675A006E9478 /* Info.plist */,
+			);
+			path = UPanda_OfficialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2EB93751D37675A006E9478 /* UPanda_Official */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EB93A11D37675A006E9478 /* Build configuration list for PBXNativeTarget "UPanda_Official" */;
+			buildPhases = (
+				E95BA95E870BC62B5F29D368 /* [CP] Check Pods Manifest.lock */,
+				E2EB93721D37675A006E9478 /* Sources */,
+				E2EB93731D37675A006E9478 /* Frameworks */,
+				E2EB93741D37675A006E9478 /* Resources */,
+				EF7A79726D48E99A2B17156C /* [CP] Embed Pods Frameworks */,
+				3902ACB4C195F5D01BAF4D70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPanda_Official;
+			productName = UPanda_Official;
+			productReference = E2EB93761D37675A006E9478 /* UPanda_Official.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2EB938C1D37675A006E9478 /* UPanda_OfficialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EB93A41D37675A006E9478 /* Build configuration list for PBXNativeTarget "UPanda_OfficialTests" */;
+			buildPhases = (
+				AB5B5F02EC4F15AE1835C755 /* [CP] Check Pods Manifest.lock */,
+				E2EB93891D37675A006E9478 /* Sources */,
+				E2EB938A1D37675A006E9478 /* Frameworks */,
+				E2EB938B1D37675A006E9478 /* Resources */,
+				B4AD54787422701125A1B220 /* [CP] Embed Pods Frameworks */,
+				B106B07CA1CF19B7BF22BD66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2EB938F1D37675A006E9478 /* PBXTargetDependency */,
+			);
+			name = UPanda_OfficialTests;
+			productName = UPanda_OfficialTests;
+			productReference = E2EB938D1D37675A006E9478 /* UPanda_OfficialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2EB93971D37675A006E9478 /* UPanda_OfficialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EB93A71D37675A006E9478 /* Build configuration list for PBXNativeTarget "UPanda_OfficialUITests" */;
+			buildPhases = (
+				65A5E9FCDE5321E7FCAC9F25 /* [CP] Check Pods Manifest.lock */,
+				E2EB93941D37675A006E9478 /* Sources */,
+				E2EB93951D37675A006E9478 /* Frameworks */,
+				E2EB93961D37675A006E9478 /* Resources */,
+				F7DD8CDD5BA9E6850070A364 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2EB939A1D37675A006E9478 /* PBXTargetDependency */,
+			);
+			name = UPanda_OfficialUITests;
+			productName = UPanda_OfficialUITests;
+			productReference = E2EB93981D37675A006E9478 /* UPanda_OfficialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2EB936E1D37675A006E9478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin Chen";
+				TargetAttributes = {
+					E2EB93751D37675A006E9478 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E2EB938C1D37675A006E9478 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E2EB93751D37675A006E9478;
+					};
+					E2EB93971D37675A006E9478 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E2EB93751D37675A006E9478;
+					};
+				};
+			};
+			buildConfigurationList = E2EB93711D37675A006E9478 /* Build configuration list for PBXProject "UPanda_Official" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2EB936D1D37675A006E9478;
+			productRefGroup = E2EB93771D37675A006E9478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2EB93751D37675A006E9478 /* UPanda_Official */,
+				E2EB938C1D37675A006E9478 /* UPanda_OfficialTests */,
+				E2EB93971D37675A006E9478 /* UPanda_OfficialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2EB93741D37675A006E9478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EB93871D37675A006E9478 /* LaunchScreen.storyboard in Resources */,
+				E2EB93841D37675A006E9478 /* Assets.xcassets in Resources */,
+				E2EB937F1D37675A006E9478 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EB938B1D37675A006E9478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EB93961D37675A006E9478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3902ACB4C195F5D01BAF4D70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPanda_Official/Pods-UPanda_Official-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A5E9FCDE5321E7FCAC9F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5B5F02EC4F15AE1835C755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B106B07CA1CF19B7BF22BD66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPanda_OfficialTests/Pods-UPanda_OfficialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4AD54787422701125A1B220 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPanda_OfficialTests/Pods-UPanda_OfficialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95BA95E870BC62B5F29D368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7A79726D48E99A2B17156C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPanda_Official/Pods-UPanda_Official-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DD8CDD5BA9E6850070A364 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPanda_OfficialUITests/Pods-UPanda_OfficialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2EB93721D37675A006E9478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EB93821D37675A006E9478 /* UPanda_Official.xcdatamodeld in Sources */,
+				E2EB937C1D37675A006E9478 /* ViewController.swift in Sources */,
+				E2EB937A1D37675A006E9478 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EB93891D37675A006E9478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EB93921D37675A006E9478 /* UPanda_OfficialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EB93941D37675A006E9478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EB939D1D37675A006E9478 /* UPanda_OfficialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2EB938F1D37675A006E9478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EB93751D37675A006E9478 /* UPanda_Official */;
+			targetProxy = E2EB938E1D37675A006E9478 /* PBXContainerItemProxy */;
+		};
+		E2EB939A1D37675A006E9478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EB93751D37675A006E9478 /* UPanda_Official */;
+			targetProxy = E2EB93991D37675A006E9478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2EB937D1D37675A006E9478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2EB937E1D37675A006E9478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2EB93851D37675A006E9478 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2EB93861D37675A006E9478 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2EB939F1D37675A006E9478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2EB93A01D37675A006E9478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2EB93A21D37675A006E9478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998D7A821ECAC25AB256005C /* Pods-UPanda_Official.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UPanda_Official/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchen.UPanda-Official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2EB93A31D37675A006E9478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7177898C144A89D9EB92AA1D /* Pods-UPanda_Official.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UPanda_Official/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchen.UPanda-Official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2EB93A51D37675A006E9478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946A1B8EB6D4F82D9B44D290 /* Pods-UPanda_OfficialTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UPanda_OfficialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchen.UPanda-OfficialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPanda_Official.app/UPanda_Official";
+			};
+			name = Debug;
+		};
+		E2EB93A61D37675A006E9478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5AD108791CAA5033B8B278 /* Pods-UPanda_OfficialTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UPanda_OfficialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchen.UPanda-OfficialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPanda_Official.app/UPanda_Official";
+			};
+			name = Release;
+		};
+		E2EB93A81D37675A006E9478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB98C25671348092A886E8A /* Pods-UPanda_OfficialUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = UPanda_OfficialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchen.UPanda-OfficialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UPanda_Official;
+			};
+			name = Debug;
+		};
+		E2EB93A91D37675A006E9478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9CE992C50FC6064DB2378F /* Pods-UPanda_OfficialUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = UPanda_OfficialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchen.UPanda-OfficialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UPanda_Official;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2EB93711D37675A006E9478 /* Build configuration list for PBXProject "UPanda_Official" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EB939F1D37675A006E9478 /* Debug */,
+				E2EB93A01D37675A006E9478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EB93A11D37675A006E9478 /* Build configuration list for PBXNativeTarget "UPanda_Official" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EB93A21D37675A006E9478 /* Debug */,
+				E2EB93A31D37675A006E9478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EB93A41D37675A006E9478 /* Build configuration list for PBXNativeTarget "UPanda_OfficialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EB93A51D37675A006E9478 /* Debug */,
+				E2EB93A61D37675A006E9478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EB93A71D37675A006E9478 /* Build configuration list for PBXNativeTarget "UPanda_OfficialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EB93A81D37675A006E9478 /* Debug */,
+				E2EB93A91D37675A006E9478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2EB93801D37675A006E9478 /* UPanda_Official.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2EB93811D37675A006E9478 /* UPanda_Official.xcdatamodel */,
+			);
+			currentVersion = E2EB93811D37675A006E9478 /* UPanda_Official.xcdatamodel */;
+			path = UPanda_Official.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2EB936E1D37675A006E9478 /* Project object */;
+}
