@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -24,10 +26,36 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBAction func attemptLogin(sender: UIButton!){
         if let email = emailField.text where email != "", let pwd = passwordField.text where pwd != "" {
-        } else{
+            
+            FIRAuth.auth()?.signInWithEmail(email, password: pwd, completion: {(user, error) in
+                if error != nil {
+                    print(error)
+                    if error!.code == STATUS_ACCOUNT_NONEXIST {
+                        //DataService.ds.REF_BASE.createUser(email, password: pwd, withValueCompletionBlock: {error, result in
+                        FIRAuth.auth()?.createUserWithEmail(email, password: pwd, completion: {(user, error) in
+                            if error != nil {
+                                self.showErrorAlert("Could not create account", msg: "Problem Creating account, try something else")
+                            } else {
+                                NSUserDefaults.standardUserDefaults().setValue(user!.uid, forKey: KEY_UID)
+                                
+                                let userData = ["provider": "email"]
+                                DataService.ds.createFirebaseUser(user!.uid , user: userData)
+                                self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                            }
+                        })
+                    } else {
+                        self.showErrorAlert("Could not log in", msg: "Please check your username or password")
+                    }
+                } else {
+                    self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                }
+            })
+        
+        
+            } else{
             showErrorAlert("Email and Password Required", msg: "You must enter a school email and a password")}
     }
         

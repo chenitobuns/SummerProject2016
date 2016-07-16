@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>517506089741-vh9bulkvr7efkeqnmbn92vc3cqa2pm8g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.517506089741-vh9bulkvr7efkeqnmbn92vc3cqa2pm8g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAPC0SEIhzBGGFTTKjPwF-PgXAh85-aokI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>517506089741</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kchen.UPanda-Official</string>
+	<key>PROJECT_ID</key>
+	<string>upanda-aa1ff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>upanda-aa1ff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:517506089741:ios:e13d4a5b19543612</string>
+	<key>DATABASE_URL</key>
+	<string>https://upanda-aa1ff.firebaseio.com</string>
+</dict>
+</plist>
