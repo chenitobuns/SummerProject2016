@@ -8,8 +8,12 @@
     <customFonts key="customFonts">
         <mutableArray key="NotoSans-Bold.ttf">
             <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
         </mutableArray>
         <mutableArray key="NotoSans-Regular.ttf">
+            <string>NotoSans</string>
             <string>NotoSans</string>
             <string>NotoSans</string>
         </mutableArray>
@@ -72,6 +76,7 @@
                                         </state>
                                         <connections>
                                             <action selector="attemptLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="918-fj-776"/>
+                                            <segue destination="NRg-9M-puS" kind="show" id="YPX-nP-uWu"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -107,7 +112,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="364"/>
+            <point key="canvasLocation" x="291" y="365"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xOX-Af-86K">
+            <objects>
+                <viewController id="NRg-9M-puS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="be4-a6-4J9"/>
+                        <viewControllerLayoutGuide type="bottom" id="G8q-hb-6RY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="djY-eu-qg4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Thank you for signing up with your student email. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPd-ht-0bd">
+                                <rect key="frame" x="49" y="74" width="503" height="51"/>
+                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Would you also like to sign in with Facebook?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyr-sa-pXO">
+                                <rect key="frame" x="49" y="115" width="503" height="51"/>
+                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orq-a2-Rzk">
+                                <rect key="frame" x="251" y="400" width="98" height="30"/>
+                                <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="15"/>
+                                <state key="normal" title="skip"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxM-HG-z8v">
+                                <rect key="frame" x="189" y="356" width="222" height="45"/>
+                                <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                <state key="normal" title="Login with Facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.70196078429999997" green="0.8980392157" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jPd-ht-0bd" firstAttribute="top" secondItem="be4-a6-4J9" secondAttribute="bottom" constant="54" id="9bF-yD-sUj"/>
+                            <constraint firstItem="Orq-a2-Rzk" firstAttribute="centerX" secondItem="jPd-ht-0bd" secondAttribute="centerX" id="Bpx-qY-sgb"/>
+                            <constraint firstItem="PxM-HG-z8v" firstAttribute="centerX" secondItem="jPd-ht-0bd" secondAttribute="centerX" id="J7z-1r-O0X"/>
+                            <constraint firstItem="lyr-sa-pXO" firstAttribute="centerX" secondItem="jPd-ht-0bd" secondAttribute="centerX" id="KSl-LS-81g"/>
+                            <constraint firstItem="jPd-ht-0bd" firstAttribute="leading" secondItem="djY-eu-qg4" secondAttribute="leadingMargin" constant="29" id="Omd-hV-kfT"/>
+                            <constraint firstItem="lyr-sa-pXO" firstAttribute="centerX" secondItem="jPd-ht-0bd" secondAttribute="centerX" id="VfK-DW-XWg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jPd-ht-0bd" secondAttribute="trailing" constant="28" id="aWb-Gb-8Fh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wws-Bd-jYB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="365"/>
         </scene>
     </scenes>
 </document>
