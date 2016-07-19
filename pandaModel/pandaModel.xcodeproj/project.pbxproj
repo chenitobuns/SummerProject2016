@@ -16,6 +16,10 @@
 		F5BC09C51D346E4C00135C89 /* pandaModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09C41D346E4C00135C89 /* pandaModelTests.swift */; };
 		F5BC09D01D346E4D00135C89 /* pandaModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09CF1D346E4D00135C89 /* pandaModelUITests.swift */; };
 		F5BC09E11D346EAE00135C89 /* parentPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09E01D346EAE00135C89 /* parentPost.swift */; };
+		F5BC09E31D34A91F00135C89 /* genUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09E21D34A91F00135C89 /* genUser.swift */; };
+		F5BC09E51D34A9BB00135C89 /* userPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09E41D34A9BB00135C89 /* userPost.swift */; };
+		F5BC09E71D35BAB500135C89 /* postLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09E61D35BAB500135C89 /* postLoader.swift */; };
+		F5BC09E91D35EF4D00135C89 /* PostTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC09E81D35EF4D00135C89 /* PostTag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		F5BC09CF1D346E4D00135C89 /* pandaModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pandaModelUITests.swift; sourceTree = "<group>"; };
 		F5BC09D11D346E4D00135C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5BC09E01D346EAE00135C89 /* parentPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parentPost.swift; sourceTree = "<group>"; };
+		F5BC09E21D34A91F00135C89 /* genUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = genUser.swift; sourceTree = "<group>"; };
+		F5BC09E41D34A9BB00135C89 /* userPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userPost.swift; sourceTree = "<group>"; };
+		F5BC09E61D35BAB500135C89 /* postLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postLoader.swift; sourceTree = "<group>"; };
+		F5BC09E81D35EF4D00135C89 /* PostTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				F5BC09E01D346EAE00135C89 /* parentPost.swift */,
+				F5BC09E41D34A9BB00135C89 /* userPost.swift */,
+				F5BC09E61D35BAB500135C89 /* postLoader.swift */,
+				F5BC09E21D34A91F00135C89 /* genUser.swift */,
+				F5BC09E81D35EF4D00135C89 /* PostTag.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -270,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BC09E31D34A91F00135C89 /* genUser.swift in Sources */,
 				F5BC09B51D346E4C00135C89 /* pandaModel.xcdatamodeld in Sources */,
+				F5BC09E91D35EF4D00135C89 /* PostTag.swift in Sources */,
+				F5BC09E71D35BAB500135C89 /* postLoader.swift in Sources */,
 				F5BC09AF1D346E4C00135C89 /* ViewController.swift in Sources */,
 				F5BC09AD1D346E4C00135C89 /* AppDelegate.swift in Sources */,
+				F5BC09E51D34A9BB00135C89 /* userPost.swift in Sources */,
 				F5BC09E11D346EAE00135C89 /* parentPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
