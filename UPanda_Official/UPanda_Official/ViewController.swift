@@ -7,14 +7,15 @@
 //
 
 import UIKit
-import Firebase
-import FirebaseAuth
+import FBSDKCoreKit
+import FBSDKLoginKit
+
 
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
+    //@IBOutlet weak var emailField: UITextField!
+    //@IBOutlet weak var passwordField: UITextField!
     
     
     override func viewDidLoad() {
@@ -24,10 +25,23 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+
+
+    @IBAction func fbBtnPressed(sender: UIButton){
+        let facebookLogin = FBSDKLoginManager()
+        //facebookLogin.logInWithReadPermissions(["email"]) { (facebookResult: FBSDKLoginManagerLoginResult!, facebookError: NSError!)-> Void in
+        facebookLogin.logInWithReadPermissions( [ "email" ], fromViewController: self ) { ( facebookResult: FBSDKLoginManagerLoginResult!, facebookError: NSError!) -> Void in
+            if facebookError != nil {
+                print("Facebook Login Failed. Error \(facebookError)")
+            } else {
+                let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
+                print("Successfully logged in with Facebook. \(accessToken)")
+            }
+        }
+}
     
-    @IBAction func attemptLogin(sender: UIButton!){
+    /*@IBAction func attemptLogin(sender: UIButton!){
         if let email = emailField.text where email != "", let pwd = passwordField.text where pwd != "" {
             
             FIRAuth.auth()?.signInWithEmail(email, password: pwd, completion: {(user, error) in
@@ -65,5 +79,6 @@ class ViewController: UIViewController {
             alert.addAction(action)
             presentViewController(alert, animated: true, completion: nil)
         }
+}*/
 }
 

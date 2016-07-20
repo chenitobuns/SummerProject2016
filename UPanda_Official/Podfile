@@ -6,7 +6,10 @@ target 'UPanda_Official' do
   use_frameworks!
 
   # Pods for UPanda_Official
-pod ‘Firebase’
+  pod ‘Firebase’
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   target 'UPanda_OfficialTests' do
     inherit! :search_paths
     # Pods for testing
