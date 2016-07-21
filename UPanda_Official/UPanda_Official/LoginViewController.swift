@@ -9,13 +9,16 @@
 import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
+import FirebaseAuth
+import FirebaseDatabase
+import Firebase
 
 
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
+    //@IBOutlet weak var emailField: UITextField!
+    //@IBOutlet weak var passwordField: UITextField!
     
     
     override func viewDidLoad() {
@@ -26,7 +29,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
 
     @IBAction func fbBtnPressed(sender: UIButton){
         let facebookLogin = FBSDKLoginManager()
@@ -37,6 +40,23 @@ class ViewController: UIViewController {
             } else {
                 let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
                 print("Successfully logged in with Facebook. \(accessToken)")
+                
+                let credential = FIRFacebookAuthProvider.credentialWithAccessToken(FBSDKAccessToken.currentAccessToken().tokenString)
+                FIRAuth.auth()?.signInWithCredential(credential, completion: { (user, error) in
+                    if error != nil{
+                        print("Login Failed. \(error)")
+                    } else {
+                    print("Logged in. \(user)")
+                        
+                    let userData = ["provider": credential.provider]
+                    DataService.ds.createFirebaseUser(user!.uid, user: userData)
+                    
+                        
+                    NSUserDefaults.standardUserDefaults().setValue(user!.uid, forKey: KEY_UID)
+                    self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                        
+                    }
+                })
             }
         }
 }

@@ -9,6 +9,9 @@
 import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
+import Firebase
+import FirebaseDatabase
+import FirebaseAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,8 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
-        //FIRApp.configure()
-        //return true
+        FIRApp.configure()
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -54,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
-    lazy var applicationDocumentsDirectory: NSURL = {
+    /*lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "com.kchen.UPanda_Official" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls[urls.count-1]
@@ -115,5 +118,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }*/
 
-}
+}*/
 
