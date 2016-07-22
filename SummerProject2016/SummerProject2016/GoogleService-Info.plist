@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>437392183824-cq411cv8ot6q36g1gvdk6nasqnpusqcq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.437392183824-cq411cv8ot6q36g1gvdk6nasqnpusqcq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAa0uLsBHw0Nfs1HfhxDOSU-ll4IXbzNjg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>437392183824</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kchen.SummerProject2016</string>
+	<key>PROJECT_ID</key>
+	<string>summerproject2016-c128a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>summerproject2016-c128a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:437392183824:ios:0fff2a06f617e92e</string>
+	<key>DATABASE_URL</key>
+	<string>https://summerproject2016-c128a.firebaseio.com</string>
+</dict>
+</plist>

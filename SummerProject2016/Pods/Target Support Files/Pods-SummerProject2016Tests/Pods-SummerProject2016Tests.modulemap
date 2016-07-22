@@ -1,0 +1,6 @@
+framework module Pods_SummerProject2016Tests {
+  umbrella header "Pods-SummerProject2016Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
