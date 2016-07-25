@@ -10,6 +10,7 @@ target 'UPanda_Official' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'Bolts'
   target 'UPanda_OfficialTests' do
     inherit! :search_paths
     # Pods for testing

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-UPanda_Official.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,12 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B10CA7C3D1A1349EB9E103FE42A3E3A4</key>
+		<key>9D0F2E5EA1B46A5D72FFD42B0B39DBBC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D3FB93C7843DEAE510A8E9810769A9CC</key>
+		<key>AA076AC7125C996DCA3E71EE6E28B29F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B10CA7C3D1A1349EB9E103FE42A3E3A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

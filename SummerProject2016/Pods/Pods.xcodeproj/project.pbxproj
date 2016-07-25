@@ -8,54 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		0D0FB025B351B042A69C265B5D9232C7 /* Pods-SummerProject2016UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F85235BEC4DBB66083379BD2CA69E2 /* Pods-SummerProject2016UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		139FE4B378AF69FD65DF73C921B131AD /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5255351487A6D94A5B2F0E760B4B532F /* BFCancellationToken.m */; };
-		1DCFCA14CBF89C36D853B87417E126E6 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A9BB5B806299EE3FC136857B71FBC3 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		139FE4B378AF69FD65DF73C921B131AD /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C3F3327FF92F8A5719AC48F96553B9 /* BFCancellationToken.m */; };
+		1DCFCA14CBF89C36D853B87417E126E6 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 900C01FE1A5A9B0C273E8F9EAD4F0DF7 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24406A8E8A59F1FF06DD4FBAF04333C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		24600483CE2FB9BBDED179CCC892F3F8 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = C35FE2A5250D2809179F80DA41ACCC79 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C737796AAD49FE609E7FB0CCF8A263C /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BA5746FAA3914ABA76186FC19B0EBE /* Bolts.m */; };
+		24600483CE2FB9BBDED179CCC892F3F8 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D360DCD90A41486A5306F8A82019871 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C737796AAD49FE609E7FB0CCF8A263C /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 08573BEFEB3575E0645D1C3F13E807CC /* Bolts.m */; };
 		3162EC53930D98ED577FB5C70DA0A013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		343843D298290E746FF42BFC7EEB9AA9 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5992A134DFBB69DB85F30441F57CB431 /* BFAppLinkNavigation.m */; };
+		343843D298290E746FF42BFC7EEB9AA9 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F9B741C1D8DC81A42CCD4D86FDFDB /* BFAppLinkNavigation.m */; };
 		37AC95233785D228DB00D6A5F0638D5C /* Pods-SummerProject2016UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB31BF2CFEE71FF0934B32BA88748FF /* Pods-SummerProject2016UITests-dummy.m */; };
-		38EF43F03EBACFE40F480F4F8BC20FD5 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B040644D35388309811614AC2525F35 /* BFURL.m */; };
-		39E4FA2B5D0B8EFD4F9B953111DA1CFC /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AC77D52EDC362FA14D4719CFC9B9D1 /* BFWebViewAppLinkResolver.m */; };
-		3D6D69351FD8DF6501A8144FF882C074 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E387CEC3F8144AE8038F7A188B17CB /* BFAppLink.m */; };
-		409F5BE5BDBB1D3850F4D62D5504D662 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FD62C6D1F8AFCA99FB25130E2D8BA3 /* BFTaskCompletionSource.m */; };
+		38EF43F03EBACFE40F480F4F8BC20FD5 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F188FAB28BA921162109D3F16917C4 /* BFURL.m */; };
+		39E4FA2B5D0B8EFD4F9B953111DA1CFC /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921ACE56EC6F4DEA56E2CD305B207A2 /* BFWebViewAppLinkResolver.m */; };
+		3D6D69351FD8DF6501A8144FF882C074 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67B3B885678417DFB344C897C6C172 /* BFAppLink.m */; };
+		409F5BE5BDBB1D3850F4D62D5504D662 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 410AD29E87E0422EB57BA688F0BF7B85 /* BFTaskCompletionSource.m */; };
 		42F44AD72DA11C66072D46BEC5DF08B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		4DCE84710050E8583735F97ADC84FCA7 /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ED3D8BFBE7AE8A6D27F73F35FB1B65 /* BFAppLinkReturnToRefererController.m */; };
-		514B1324C72A235480C29BBC3AD1C250 /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B4DF5B66DCEF2B1A8F517975D1445A /* BFAppLinkTarget.m */; };
-		5493E80E04D895A735853EA349C4AAE3 /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA99111CB77B0F1DFCFC7B56F41D39B /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F26B65B4A4711EB4BC2BC9BC48FF041 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 781350D09CC160794C50554F77E6E938 /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60CAF8D6E879B1585D61B55EE807A113 /* BFTask+Exceptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D9045233883A481894D1F4DDD394D1D2 /* BFTask+Exceptions.m */; };
-		652EE84BA55F2A6BD325768B753565D8 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847EE943724CFDEFF26FDF4E85498F7 /* BFExecutor.m */; };
-		6A8B92B5BDFBEE6BD3F70901FB71A0B1 /* BFTask+Exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F49D4E53744DC2B02ED7A3A4DADB72C /* BFTask+Exceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E2B6054F217E3D01C59665D011B09B1 /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FF5623EC6D24C52729AA8BC37BB54A /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7333194276505D454DACD2603FEE0271 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE21CB8CDCDF7361918E25D56C2C963 /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BB98E50240143972C28AA9A13EBC3D5 /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6498B376B5E11F4990EC950CB2D795 /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C7E248D341E116E1A7B8C16A8F58C6B /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CA3C3B3935C98BB7B858D7A66CE35D /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8170C4AC05E84ED31A9D33A4CD205D2C /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = A05FC1C8BCC1C11C55227035C72BC7E6 /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99FA28E0A77EBF35E1C94E6C5851DB44 /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DD152EB4A6293E10D80B861900BFF242 /* BFCancellationTokenSource.m */; };
-		9B045FC64D2A32D380593AEA86A28904 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = CD90B92F12078331D57A8CAFFBCDAA67 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DCE84710050E8583735F97ADC84FCA7 /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4232CC9D66F8B1260D7B27ACFA40D /* BFAppLinkReturnToRefererController.m */; };
+		514B1324C72A235480C29BBC3AD1C250 /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = B562EA0A9E3A5F483B33B2B590432047 /* BFAppLinkTarget.m */; };
+		5493E80E04D895A735853EA349C4AAE3 /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = AFACAA137F38A1B263D0A4C46AE79BE5 /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F26B65B4A4711EB4BC2BC9BC48FF041 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9899731498F9F791BB8E419E96AFAE4D /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CAF8D6E879B1585D61B55EE807A113 /* BFTask+Exceptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 152EF163C4D19ADAF1DC7A89334B4E62 /* BFTask+Exceptions.m */; };
+		652EE84BA55F2A6BD325768B753565D8 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E7C0E79E9A71396E4DDDF0B3DD036B /* BFExecutor.m */; };
+		6A8B92B5BDFBEE6BD3F70901FB71A0B1 /* BFTask+Exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = D969D00B16BD43139F9528BA53A28AFF /* BFTask+Exceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E2B6054F217E3D01C59665D011B09B1 /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DD71174F16F2F54D0A3D95FA0B88D820 /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7333194276505D454DACD2603FEE0271 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 714A80A59E3EB02324F5D71074BBBEBD /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BB98E50240143972C28AA9A13EBC3D5 /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B1596B95E5BAA1D6E7481694A9C5F8 /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7E248D341E116E1A7B8C16A8F58C6B /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D55BBFA737AAB078B921B8AB583BC8 /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8170C4AC05E84ED31A9D33A4CD205D2C /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F802D1373E1C8B2F4DBF33128AAF714 /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99FA28E0A77EBF35E1C94E6C5851DB44 /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 771BCCE62616A39FB2F48ED690DEAB8D /* BFCancellationTokenSource.m */; };
+		9B045FC64D2A32D380593AEA86A28904 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F24696616A444F687A22655396C8377 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DB7DEAE6AC763C6F854597B44BC3230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		9E40001D7D2CAC32039C59FC0208A7CA /* Bolts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E596A3B8004ECDEC32E74AD7CEFAB66 /* Bolts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3CE342B34D0DAA7BE2AA45BEF94CAFC /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE91848406A2D14DD3BCB6E7A249A2E /* BFAppLink_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A411DDDACF2FE64E4123D2654049E331 /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9316AE71E6A3BC943B8C1071A4D39 /* BFMeasurementEvent.m */; };
+		9E40001D7D2CAC32039C59FC0208A7CA /* Bolts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1D17F4F44C13CBA4F40743F22DFE7C /* Bolts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CE342B34D0DAA7BE2AA45BEF94CAFC /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8264B903610DA36FD654D243F9DF5937 /* BFAppLink_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A411DDDACF2FE64E4123D2654049E331 /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D911140FF9B47CFCE7BD3CBFE765E57 /* BFMeasurementEvent.m */; };
 		A662218DEA7FF82140B67CF0572043AF /* Pods-SummerProject2016-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D7D902802A5B791BAF65E3D53702D /* Pods-SummerProject2016-dummy.m */; };
-		A877EB9CF2930345DD962B4BC0D24959 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 01617A5DF63D4961A9207824FF8AEC4F /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A877EB9CF2930345DD962B4BC0D24959 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 053698F66CFA8ED51CFA60F77F30DEFD /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB908176159DF39C9DD006E7CDD91FDB /* Pods-SummerProject2016Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 558DC8686EB85FB3395FFCF96713030B /* Pods-SummerProject2016Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE88CF4A135C8C1E79FEBB43EE2B38F8 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 886C1D7EF299CBAA70738104ADB79BC0 /* BFAppLinkReturnToRefererView_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE88CF4A135C8C1E79FEBB43EE2B38F8 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A122714295B61E17A251383D622627 /* BFAppLinkReturnToRefererView_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AFE66C4F16F1D47A9E344A17CFC73548 /* Pods-SummerProject2016-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6095C747F6A685967634DFD278111031 /* Pods-SummerProject2016-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC82780C5FED62B06DC51F6DCA0491B5 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D623414848847505418DD00E71237DDE /* BFURL_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C05225EA8ACCF663097C4EC96E8E9887 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B8C9B9E6ECBFDAA048A6EA2FCA66B5 /* BFAppLinkReturnToRefererView.m */; };
-		C8A2479793F6D05DE6D8FA164EB7C00D /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0148F240287F29F458668B89B51CC35 /* Bolts-dummy.m */; };
-		CDE764570B1C9BED83BD2F23533A3097 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF9B981179A843127D47DF236DCB031 /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8E3EF0B890201C0DD54E9CF5527F88C /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2CF4AAF327703DBC0A9D410E21E190 /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9B2E2CE9E2DF615FE197377486BB214 /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA916C5878C304E5FBD61AEE9EB5305 /* BFCancellationTokenRegistration.m */; };
-		DFC3DF985B5065268315681B81A235DE /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 390521203AD6E2428C2224F43BB73ED2 /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E39ED3657FEE321A20AE105D8BE1A340 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C6AF2148AE425376BA120A65948FA4 /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3F3CBC9723823D11DCF58CDFA25AA77 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C75787FEBE5A27CE29736D8A5599B /* BFTask.m */; };
+		BC82780C5FED62B06DC51F6DCA0491B5 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C18C64B52E7D95ABAFD08D4DDB387A98 /* BFURL_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C05225EA8ACCF663097C4EC96E8E9887 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 438FAC3DEC784FDC204FCF3611F5EA77 /* BFAppLinkReturnToRefererView.m */; };
+		C8A2479793F6D05DE6D8FA164EB7C00D /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B581C0540AC386E580050B543AEAE69D /* Bolts-dummy.m */; };
+		CDE764570B1C9BED83BD2F23533A3097 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BD30A1AA7039D1D3132135403682EE /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8E3EF0B890201C0DD54E9CF5527F88C /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 431C7866BE0EA9951BDFB4E71657D539 /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B2E2CE9E2DF615FE197377486BB214 /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBBB0BF713DE5202B800805C2C1A381 /* BFCancellationTokenRegistration.m */; };
+		DFC3DF985B5065268315681B81A235DE /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AEBB45F3A18E48F9211A8FCAF3E740 /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39ED3657FEE321A20AE105D8BE1A340 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA85663548DB25FE79C460A2AA6EF97 /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F3CBC9723823D11DCF58CDFA25AA77 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EFD7F3A2D29173E3A655582212E6B /* BFTask.m */; };
 		E50B6377C56F2EE34E379E188792D1FE /* Pods-SummerProject2016Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3C479A90BB9F9827A8F8709A72B19D /* Pods-SummerProject2016Tests-dummy.m */; };
-		F759176BF99FB3C01BA3EEE8C6A40D2A /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = A80181E64A08CFCFCC4555331028EECD /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F83D82020F9347F75495D09AA4F295AE /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 656D2E3A2E7138ED1E08A6A46AB157D0 /* BFMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F759176BF99FB3C01BA3EEE8C6A40D2A /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = B4944C6FC56A597EFD73AE25F63CA4ED /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F83D82020F9347F75495D09AA4F295AE /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8573035FFF5E617B0BDC2325BE0E4536 /* BFMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,95 +69,97 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01617A5DF63D4961A9207824FF8AEC4F /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
-		08D2ADDF0D6EC5742B09E99B5F76E4F9 /* Bolts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bolts.modulemap; sourceTree = "<group>"; };
+		053698F66CFA8ED51CFA60F77F30DEFD /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		0765BEA600FC8CDE7F5CE9F5F9F0046F /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		08573BEFEB3575E0645D1C3F13E807CC /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
 		097FA12ADC02B1D3C2698D0531B73CEC /* Pods-SummerProject2016UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SummerProject2016UITests-frameworks.sh"; sourceTree = "<group>"; };
+		0A3F9B741C1D8DC81A42CCD4D86FDFDB /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
 		0BC208CAAE2227E3EB4C90E38FD4AF98 /* Pods-SummerProject2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SummerProject2016.debug.xcconfig"; sourceTree = "<group>"; };
 		0DF3B3491C939C767FEE376A01C47A02 /* Pods-SummerProject2016Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SummerProject2016Tests-resources.sh"; sourceTree = "<group>"; };
-		0F49D4E53744DC2B02ED7A3A4DADB72C /* BFTask+Exceptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BFTask+Exceptions.h"; path = "Bolts/Common/BFTask+Exceptions.h"; sourceTree = "<group>"; };
 		13F85235BEC4DBB66083379BD2CA69E2 /* Pods-SummerProject2016UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SummerProject2016UITests-umbrella.h"; sourceTree = "<group>"; };
-		13F8FBDAAB016A6187DE4E65FB79B47B /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
-		1448ACF919F0F4B7424140B0B940FDFC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		145AD821039BF75320399A692AA1502A /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
-		1847EE943724CFDEFF26FDF4E85498F7 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		152EF163C4D19ADAF1DC7A89334B4E62 /* BFTask+Exceptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BFTask+Exceptions.m"; path = "Bolts/Common/BFTask+Exceptions.m"; sourceTree = "<group>"; };
+		17F1532507A3B4F80AD37FF755472928 /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
+		1B413DC3623C065828F544C9EBA0D683 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
 		1BE7F91F4FC230020EA87B40BAE28669 /* Pods-SummerProject2016UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SummerProject2016UITests-resources.sh"; sourceTree = "<group>"; };
-		1DE91848406A2D14DD3BCB6E7A249A2E /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/Internal/BFAppLink_Internal.h; sourceTree = "<group>"; };
+		1D911140FF9B47CFCE7BD3CBFE765E57 /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
 		1F03CD85FD5BCF034E9A8B577D0F4FE2 /* Pods-SummerProject2016Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SummerProject2016Tests.modulemap"; sourceTree = "<group>"; };
-		1F2E88AE718079A5ABB3BA3988C989BE /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		1FA036A67AC2552E4F83003A4214152F /* Pods-SummerProject2016UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SummerProject2016UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1FB09081395330DE3016E69A71A31AB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20FD62C6D1F8AFCA99FB25130E2D8BA3 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
 		32239678519D1E2FE1E416EC1AAC068A /* Pods-SummerProject2016UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SummerProject2016UITests.release.xcconfig"; sourceTree = "<group>"; };
 		34CE84F8AA9F0ADB537B27F4B609C41F /* Pods-SummerProject2016Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SummerProject2016Tests-frameworks.sh"; sourceTree = "<group>"; };
+		36AEBB45F3A18E48F9211A8FCAF3E740 /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
 		38F1D0882637CC9EA3C831052BF3F9CA /* Pods-SummerProject2016.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SummerProject2016.modulemap"; sourceTree = "<group>"; };
-		390521203AD6E2428C2224F43BB73ED2 /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
-		3FA99111CB77B0F1DFCFC7B56F41D39B /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
+		410AD29E87E0422EB57BA688F0BF7B85 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		431C7866BE0EA9951BDFB4E71657D539 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
 		43358D4413551A0DBAFCBBDE20003CDD /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4396E2523CC20BD4FE31B425A6794B0C /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
-		48B8C9B9E6ECBFDAA048A6EA2FCA66B5 /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
-		4B040644D35388309811614AC2525F35 /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
-		4C2CF4AAF327703DBC0A9D410E21E190 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
+		438FAC3DEC784FDC204FCF3611F5EA77 /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
+		4BBBB0BF713DE5202B800805C2C1A381 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
 		4CF3A7E60144C228B7A59B0A7738BEAD /* Pods-SummerProject2016-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SummerProject2016-frameworks.sh"; sourceTree = "<group>"; };
-		4E62AFFB31F38B9C35114DBD7CCF268F /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
-		5255351487A6D94A5B2F0E760B4B532F /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
 		558DC8686EB85FB3395FFCF96713030B /* Pods-SummerProject2016Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SummerProject2016Tests-umbrella.h"; sourceTree = "<group>"; };
 		5803A7D79F3776CD9B45AFD5EDC405D8 /* Pods-SummerProject2016UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SummerProject2016UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		581FF090A6B602735F9B63CE249E32E3 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
 		58A0AA9A8139E5602D661BFC6C3D1FA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5992A134DFBB69DB85F30441F57CB431 /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
+		59B1596B95E5BAA1D6E7481694A9C5F8 /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
 		5D30A4B8569B6D0AD13D37AEC9107FAB /* Pods-SummerProject2016-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SummerProject2016-resources.sh"; sourceTree = "<group>"; };
-		5F24598068BCFBD8F76CF9ECD2482EC4 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		6095C747F6A685967634DFD278111031 /* Pods-SummerProject2016-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SummerProject2016-umbrella.h"; sourceTree = "<group>"; };
-		656D2E3A2E7138ED1E08A6A46AB157D0 /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/Internal/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
 		676693A0642F06C9AC8746FADD69AAB4 /* Pods-SummerProject2016UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SummerProject2016UITests.modulemap"; sourceTree = "<group>"; };
-		6A2C75787FEBE5A27CE29736D8A5599B /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
-		6AF9B981179A843127D47DF236DCB031 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		6921ACE56EC6F4DEA56E2CD305B207A2 /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
+		6BD4232CC9D66F8B1260D7B27ACFA40D /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
 		6D8100423B0CC54D39EF1DE014DC35D2 /* Pods-SummerProject2016Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SummerProject2016Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6DB2D9A661A69398F69D7AE82CF9DDFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71AC77D52EDC362FA14D4719CFC9B9D1 /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
+		6F802D1373E1C8B2F4DBF33128AAF714 /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
+		714A80A59E3EB02324F5D71074BBBEBD /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
 		727EDED7F19475842A51BC9DF789B0E1 /* Pods-SummerProject2016Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SummerProject2016Tests.release.xcconfig"; sourceTree = "<group>"; };
-		733C7B82E0DE0ABA45EC8F67A8C83E3B /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		781350D09CC160794C50554F77E6E938 /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
-		79C6AF2148AE425376BA120A65948FA4 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
-		886C1D7EF299CBAA70738104ADB79BC0 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/Internal/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		771BCCE62616A39FB2F48ED690DEAB8D /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		79C69EA579304C8AF93608A7818DD815 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		8264B903610DA36FD654D243F9DF5937 /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/Internal/BFAppLink_Internal.h; sourceTree = "<group>"; };
+		84FA54B928331B953ADE2A0273EB0D47 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		8573035FFF5E617B0BDC2325BE0E4536 /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/Internal/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
+		85F188FAB28BA921162109D3F16917C4 /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
+		8958A43F47C5348E74514676A9EB928E /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		8D360DCD90A41486A5306F8A82019871 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		900C01FE1A5A9B0C273E8F9EAD4F0DF7 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
 		9016D74EA67FED40601A3D61A92322F7 /* Pods_SummerProject2016UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummerProject2016UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		928BACDD89F588ADF1FDD29A2D2D56FA /* Pods-SummerProject2016-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SummerProject2016-acknowledgements.plist"; sourceTree = "<group>"; };
-		92B856C6439098EDAF88EF40387882A2 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94A9BB5B806299EE3FC136857B71FBC3 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
-		986E70AC4F8703026F224A4BC79981EE /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
-		9E596A3B8004ECDEC32E74AD7CEFAB66 /* Bolts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-umbrella.h"; sourceTree = "<group>"; };
+		987ADDE583324E63153CA5D884634248 /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
+		9899731498F9F791BB8E419E96AFAE4D /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
 		9F1AB04880DBA2784A64A814E78E1AF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A05FC1C8BCC1C11C55227035C72BC7E6 /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
-		A4CA3C3B3935C98BB7B858D7A66CE35D /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
-		A7B4DF5B66DCEF2B1A8F517975D1445A /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
-		A80181E64A08CFCFCC4555331028EECD /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
+		9F24696616A444F687A22655396C8377 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		A5BD30A1AA7039D1D3132135403682EE /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
 		AD6CE66738F23C3908BBDFFFBA068617 /* Pods-SummerProject2016.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SummerProject2016.release.xcconfig"; sourceTree = "<group>"; };
-		ADE21CB8CDCDF7361918E25D56C2C963 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
 		AE4996314CCF62B9DAF66C7D0F4B81D1 /* Pods-SummerProject2016Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SummerProject2016Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AFA916C5878C304E5FBD61AEE9EB5305 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		AFACAA137F38A1B263D0A4C46AE79BE5 /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
 		B1AEEAE20B5991B93894CE737B10320F /* Pods_SummerProject2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummerProject2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2ED3D8BFBE7AE8A6D27F73F35FB1B65 /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
-		B3BA5746FAA3914ABA76186FC19B0EBE /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
-		C35FE2A5250D2809179F80DA41ACCC79 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
-		C4E387CEC3F8144AE8038F7A188B17CB /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
+		B1D55BBFA737AAB078B921B8AB583BC8 /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		B4944C6FC56A597EFD73AE25F63CA4ED /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
+		B562EA0A9E3A5F483B33B2B590432047 /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
+		B581C0540AC386E580050B543AEAE69D /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
+		B6C6808AC266D1360CA59B2ABDBDF647 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B937FA1F95624683E811411FC835B85B /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		BC67B3B885678417DFB344C897C6C172 /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
+		C18C64B52E7D95ABAFD08D4DDB387A98 /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/Internal/BFURL_Internal.h; sourceTree = "<group>"; };
+		C2A122714295B61E17A251383D622627 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/Internal/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		C4C20336F0498EA650D94EABBB633853 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		C7C3F3327FF92F8A5719AC48F96553B9 /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
 		CA3C479A90BB9F9827A8F8709A72B19D /* Pods-SummerProject2016Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SummerProject2016Tests-dummy.m"; sourceTree = "<group>"; };
-		CA6498B376B5E11F4990EC950CB2D795 /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
 		CA7F3665034447A4EE599398E83569F6 /* Pods-SummerProject2016-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SummerProject2016-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CAB31BF2CFEE71FF0934B32BA88748FF /* Pods-SummerProject2016UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SummerProject2016UITests-dummy.m"; sourceTree = "<group>"; };
-		CD90B92F12078331D57A8CAFFBCDAA67 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
-		CDCC7F6F8FA11EC332F4358BCE2929FE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0B9316AE71E6A3BC943B8C1071A4D39 /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
-		D623414848847505418DD00E71237DDE /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/Internal/BFURL_Internal.h; sourceTree = "<group>"; };
-		D9045233883A481894D1F4DDD394D1D2 /* BFTask+Exceptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BFTask+Exceptions.m"; path = "Bolts/Common/BFTask+Exceptions.m"; sourceTree = "<group>"; };
+		D6B06EDBF010DED8265DEE8C815ED64F /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		D969D00B16BD43139F9528BA53A28AFF /* BFTask+Exceptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BFTask+Exceptions.h"; path = "Bolts/Common/BFTask+Exceptions.h"; sourceTree = "<group>"; };
 		DBC4C90AEB055DED5894A2069672AE83 /* Pods-SummerProject2016UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SummerProject2016UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD152EB4A6293E10D80B861900BFF242 /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		DC367AB6421A9B8D8C8BA274204B2688 /* Bolts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bolts.modulemap; sourceTree = "<group>"; };
 		DD230C35522C7509F5D7068D484099BD /* Pods-SummerProject2016Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SummerProject2016Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E0148F240287F29F458668B89B51CC35 /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
+		DD71174F16F2F54D0A3D95FA0B88D820 /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
+		DF1D17F4F44C13CBA4F40743F22DFE7C /* Bolts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-umbrella.h"; sourceTree = "<group>"; };
+		E0560EC649B1A84784C631D1C3106D06 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		E4CECA3DFCFA668DC8E4435701E337EA /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		E8E7C0E79E9A71396E4DDDF0B3DD036B /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
 		EF3D7D902802A5B791BAF65E3D53702D /* Pods-SummerProject2016-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SummerProject2016-dummy.m"; sourceTree = "<group>"; };
-		F5FF5623EC6D24C52729AA8BC37BB54A /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
+		F975AAB95A701AD7168770BD1F29D916 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		FAA85663548DB25FE79C460A2AA6EF97 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
 		FB0A0FB4CE3F06FF0FB0F667DEE72F22 /* Pods_SummerProject2016Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummerProject2016Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE33DA6E783A73F63839C957D487EABC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		FE6EFD7F3A2D29173E3A655582212E6B /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,59 +198,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1001F2640D3911B71388C95626352A13 /* GoogleInterchangeUtilities */ = {
+		142C5C4764ABABEDF4277E63C2B52587 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				A1C5339D0ECC782E9542438E8B1BFAEC /* Frameworks */,
+				9FFFB55A9F121E1B584BAAB6CDA9516F /* Analytics */,
 			);
-			path = GoogleInterchangeUtilities;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
-		116DF14A49DB960AC59F900C293C5946 /* Support Files */ = {
+		2BBC9284CB37A358CB8E004F0DC3D16B /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				08D2ADDF0D6EC5742B09E99B5F76E4F9 /* Bolts.modulemap */,
-				13F8FBDAAB016A6187DE4E65FB79B47B /* Bolts.xcconfig */,
-				E0148F240287F29F458668B89B51CC35 /* Bolts-dummy.m */,
-				4E62AFFB31F38B9C35114DBD7CCF268F /* Bolts-prefix.pch */,
-				9E596A3B8004ECDEC32E74AD7CEFAB66 /* Bolts-umbrella.h */,
-				6DB2D9A661A69398F69D7AE82CF9DDFF /* Info.plist */,
+				50ABF6369E6D98D280C0E50E9011B5DD /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Bolts";
+			path = FirebaseAuth;
 			sourceTree = "<group>";
 		};
-		1ABA179231ED04AE6766EA8B16EB812B /* Bolts */ = {
+		2E1A9285D0A5CEC917C8F4D26FCD19FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4A9A09BF7F47041E92189CC2E8C3356 /* AppLinks */,
-				116DF14A49DB960AC59F900C293C5946 /* Support Files */,
-				3AA5B7F4E4617B7A3922BF8BD9D72BB9 /* Tasks */,
+				84FA54B928331B953ADE2A0273EB0D47 /* GoogleInterchangeUtilities.framework */,
 			);
-			path = Bolts;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3AA5B7F4E4617B7A3922BF8BD9D72BB9 /* Tasks */ = {
+		31AE898284343D4871345C28959C5038 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3FA99111CB77B0F1DFCFC7B56F41D39B /* BFCancellationToken.h */,
-				5255351487A6D94A5B2F0E760B4B532F /* BFCancellationToken.m */,
-				ADE21CB8CDCDF7361918E25D56C2C963 /* BFCancellationTokenRegistration.h */,
-				AFA916C5878C304E5FBD61AEE9EB5305 /* BFCancellationTokenRegistration.m */,
-				94A9BB5B806299EE3FC136857B71FBC3 /* BFCancellationTokenSource.h */,
-				DD152EB4A6293E10D80B861900BFF242 /* BFCancellationTokenSource.m */,
-				C35FE2A5250D2809179F80DA41ACCC79 /* BFExecutor.h */,
-				1847EE943724CFDEFF26FDF4E85498F7 /* BFExecutor.m */,
-				A4CA3C3B3935C98BB7B858D7A66CE35D /* BFTask.h */,
-				6A2C75787FEBE5A27CE29736D8A5599B /* BFTask.m */,
-				0F49D4E53744DC2B02ED7A3A4DADB72C /* BFTask+Exceptions.h */,
-				D9045233883A481894D1F4DDD394D1D2 /* BFTask+Exceptions.m */,
-				01617A5DF63D4961A9207824FF8AEC4F /* BFTaskCompletionSource.h */,
-				20FD62C6D1F8AFCA99FB25130E2D8BA3 /* BFTaskCompletionSource.m */,
-				CD90B92F12078331D57A8CAFFBCDAA67 /* Bolts.h */,
-				B3BA5746FAA3914ABA76186FC19B0EBE /* Bolts.m */,
+				D6B06EDBF010DED8265DEE8C815ED64F /* GoogleNetworkingUtilities.framework */,
 			);
-			name = Tasks;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -277,6 +256,41 @@
 			path = "Target Support Files/Pods-SummerProject2016";
 			sourceTree = "<group>";
 		};
+		4034E6EFDC68FF26A8A9BE60FF9E544F /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				31AE898284343D4871345C28959C5038 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		50ABF6369E6D98D280C0E50E9011B5DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0560EC649B1A84784C631D1C3106D06 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5216BDA15CB449A3002A90F84D9EBC7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAA2F0A2C8A6A31B03ECCE5961683395 /* Bolts */,
+				142C5C4764ABABEDF4277E63C2B52587 /* Firebase */,
+				693C7FFAA874DA847237A497D17ACE33 /* FirebaseAnalytics */,
+				2BBC9284CB37A358CB8E004F0DC3D16B /* FirebaseAuth */,
+				7B6E8093ED59F16F4BED795CA1227828 /* FirebaseDatabase */,
+				EA22F878CFF90F455FF50E5003AE0CDD /* FirebaseInstanceID */,
+				D12E2E9C6A757E4DEBE803DB043954DB /* FirebaseStorage */,
+				6C3359ACC3ED7E991B2BEB592483791F /* GoogleInterchangeUtilities */,
+				4034E6EFDC68FF26A8A9BE60FF9E544F /* GoogleNetworkingUtilities */,
+				732FF5B7EA8CF1F8FC3D1CC8A0EAA37D /* GoogleParsingUtilities */,
+				6CFE7BFFCE779BC5B7CE970B675D3E79 /* GoogleSymbolUtilities */,
+				F78C40AFE1CB850177756131102890A5 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		531C9D60523598DD99BE0DAFA0C8B283 /* Pods-SummerProject2016Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,20 +309,26 @@
 			path = "Target Support Files/Pods-SummerProject2016Tests";
 			sourceTree = "<group>";
 		};
-		53482C764A46E881EE5931B56E15D5B9 /* Frameworks */ = {
+		5354D9E63E8A927A20C7FEE92A62A19B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				733C7B82E0DE0ABA45EC8F67A8C83E3B /* GoogleUtilities.framework */,
+				C4C20336F0498EA650D94EABBB633853 /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5471906C1BD1E68AF0C5F201F89920A6 /* FirebaseAuth */ = {
+		55C7920CB0E91E66A6CE3BAB7D50283E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				936855C80C3ADA303FADF3FFE712B91C /* Frameworks */,
+				DC367AB6421A9B8D8C8BA274204B2688 /* Bolts.modulemap */,
+				987ADDE583324E63153CA5D884634248 /* Bolts.xcconfig */,
+				B581C0540AC386E580050B543AEAE69D /* Bolts-dummy.m */,
+				17F1532507A3B4F80AD37FF755472928 /* Bolts-prefix.pch */,
+				DF1D17F4F44C13CBA4F40743F22DFE7C /* Bolts-umbrella.h */,
+				B6C6808AC266D1360CA59B2ABDBDF647 /* Info.plist */,
 			);
-			path = FirebaseAuth;
+			name = "Support Files";
+			path = "../Target Support Files/Bolts";
 			sourceTree = "<group>";
 		};
 		581DEC1357EC0CAF70189E36353BEA0A /* Products */ = {
@@ -322,37 +342,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		612D3F6E431BBD051D0B817EE16AD6DF /* Frameworks */ = {
+		693C7FFAA874DA847237A497D17ACE33 /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				92B856C6439098EDAF88EF40387882A2 /* GoogleNetworkingUtilities.framework */,
+				EF252AAA7BD5B4FA45D5525E84CEC442 /* Frameworks */,
 			);
-			name = Frameworks;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		61B5E6D72E2011CB1BA82009DD9736BA /* GoogleUtilities */ = {
+		6C3359ACC3ED7E991B2BEB592483791F /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				53482C764A46E881EE5931B56E15D5B9 /* Frameworks */,
+				2E1A9285D0A5CEC917C8F4D26FCD19FE /* Frameworks */,
 			);
-			path = GoogleUtilities;
+			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
-		711DA5E5E5E5C0C8BB9D254E1513D5AC /* Pods */ = {
+		6CFE7BFFCE779BC5B7CE970B675D3E79 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				1ABA179231ED04AE6766EA8B16EB812B /* Bolts */,
-				9DCCF46C2D01A15501E4D38D4383DC90 /* Firebase */,
-				AD179304CBD5D0C8BB7A5DA9E9D7AE9C /* FirebaseAnalytics */,
-				5471906C1BD1E68AF0C5F201F89920A6 /* FirebaseAuth */,
-				BED2BBCAC18734F41ABFC5C59C6D620B /* FirebaseInstanceID */,
-				1001F2640D3911B71388C95626352A13 /* GoogleInterchangeUtilities */,
-				A836BF2AAF058711F86D15F17267E47E /* GoogleNetworkingUtilities */,
-				8E0DFF07F91F86F56B66318E4ADBACC3 /* GoogleParsingUtilities */,
-				AB7533D9D579E2E5998CCBCB3AB7AE9E /* GoogleSymbolUtilities */,
-				61B5E6D72E2011CB1BA82009DD9736BA /* GoogleUtilities */,
+				D62190AC60275321FB05536BC4435DDC /* Frameworks */,
 			);
-			name = Pods;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		732FF5B7EA8CF1F8FC3D1CC8A0EAA37D /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8047A14322ACDD424C25F7018C939C44 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		7B6E8093ED59F16F4BED795CA1227828 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				A60835681A8250BD3D01AFB1609BD0B9 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -360,118 +387,42 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				711DA5E5E5E5C0C8BB9D254E1513D5AC /* Pods */,
+				5216BDA15CB449A3002A90F84D9EBC7E /* Pods */,
 				581DEC1357EC0CAF70189E36353BEA0A /* Products */,
 				EAC9D719780F21C27CF6B302A4552203 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		879CA6C3B0ABA9C0AF616C31C0BB4F23 /* Frameworks */ = {
+		8047A14322ACDD424C25F7018C939C44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F24598068BCFBD8F76CF9ECD2482EC4 /* GoogleSymbolUtilities.framework */,
+				1B413DC3623C065828F544C9EBA0D683 /* GoogleParsingUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8E0DFF07F91F86F56B66318E4ADBACC3 /* GoogleParsingUtilities */ = {
+		9FFFB55A9F121E1B584BAAB6CDA9516F /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				9D102F5F903DD7E72E7070BE1517DF1A /* Frameworks */,
+				E4CECA3DFCFA668DC8E4435701E337EA /* Firebase.h */,
 			);
-			path = GoogleParsingUtilities;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
-		936855C80C3ADA303FADF3FFE712B91C /* Frameworks */ = {
+		A290CEDD4CE22AF51615F8C4624E05CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				145AD821039BF75320399A692AA1502A /* FirebaseAuth.framework */,
+				B937FA1F95624683E811411FC835B85B /* FirebaseStorage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9D102F5F903DD7E72E7070BE1517DF1A /* Frameworks */ = {
+		A60835681A8250BD3D01AFB1609BD0B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4396E2523CC20BD4FE31B425A6794B0C /* GoogleParsingUtilities.framework */,
+				0765BEA600FC8CDE7F5CE9F5F9F0046F /* FirebaseDatabase.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9DCCF46C2D01A15501E4D38D4383DC90 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				DC89104320AAF2DE32703BC5E87574EA /* Analytics */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		A1C5339D0ECC782E9542438E8B1BFAEC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CDCC7F6F8FA11EC332F4358BCE2929FE /* GoogleInterchangeUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A38382724ABFE3A8C7AE92E8D042C687 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1448ACF919F0F4B7424140B0B940FDFC /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A4A9A09BF7F47041E92189CC2E8C3356 /* AppLinks */ = {
-			isa = PBXGroup;
-			children = (
-				A80181E64A08CFCFCC4555331028EECD /* BFAppLink.h */,
-				C4E387CEC3F8144AE8038F7A188B17CB /* BFAppLink.m */,
-				1DE91848406A2D14DD3BCB6E7A249A2E /* BFAppLink_Internal.h */,
-				79C6AF2148AE425376BA120A65948FA4 /* BFAppLinkNavigation.h */,
-				5992A134DFBB69DB85F30441F57CB431 /* BFAppLinkNavigation.m */,
-				CA6498B376B5E11F4990EC950CB2D795 /* BFAppLinkResolving.h */,
-				781350D09CC160794C50554F77E6E938 /* BFAppLinkReturnToRefererController.h */,
-				B2ED3D8BFBE7AE8A6D27F73F35FB1B65 /* BFAppLinkReturnToRefererController.m */,
-				6AF9B981179A843127D47DF236DCB031 /* BFAppLinkReturnToRefererView.h */,
-				48B8C9B9E6ECBFDAA048A6EA2FCA66B5 /* BFAppLinkReturnToRefererView.m */,
-				886C1D7EF299CBAA70738104ADB79BC0 /* BFAppLinkReturnToRefererView_Internal.h */,
-				4C2CF4AAF327703DBC0A9D410E21E190 /* BFAppLinkTarget.h */,
-				A7B4DF5B66DCEF2B1A8F517975D1445A /* BFAppLinkTarget.m */,
-				F5FF5623EC6D24C52729AA8BC37BB54A /* BFMeasurementEvent.h */,
-				D0B9316AE71E6A3BC943B8C1071A4D39 /* BFMeasurementEvent.m */,
-				656D2E3A2E7138ED1E08A6A46AB157D0 /* BFMeasurementEvent_Internal.h */,
-				390521203AD6E2428C2224F43BB73ED2 /* BFURL.h */,
-				4B040644D35388309811614AC2525F35 /* BFURL.m */,
-				D623414848847505418DD00E71237DDE /* BFURL_Internal.h */,
-				A05FC1C8BCC1C11C55227035C72BC7E6 /* BFWebViewAppLinkResolver.h */,
-				71AC77D52EDC362FA14D4719CFC9B9D1 /* BFWebViewAppLinkResolver.m */,
-			);
-			name = AppLinks;
-			sourceTree = "<group>";
-		};
-		A836BF2AAF058711F86D15F17267E47E /* GoogleNetworkingUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				612D3F6E431BBD051D0B817EE16AD6DF /* Frameworks */,
-			);
-			path = GoogleNetworkingUtilities;
-			sourceTree = "<group>";
-		};
-		AB7533D9D579E2E5998CCBCB3AB7AE9E /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				879CA6C3B0ABA9C0AF616C31C0BB4F23 /* Frameworks */,
-			);
-			path = GoogleSymbolUtilities;
-			sourceTree = "<group>";
-		};
-		AD179304CBD5D0C8BB7A5DA9E9D7AE9C /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				A38382724ABFE3A8C7AE92E8D042C687 /* Frameworks */,
-			);
-			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -482,13 +433,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BED2BBCAC18734F41ABFC5C59C6D620B /* FirebaseInstanceID */ = {
+		C1A7BE474D419803BBC3FF3CE2ACC43B /* AppLinks */ = {
 			isa = PBXGroup;
 			children = (
-				986E70AC4F8703026F224A4BC79981EE /* FIRInstanceID.h */,
-				F6F71DA1C89346DE9EE39E5B1BB42144 /* Frameworks */,
+				B4944C6FC56A597EFD73AE25F63CA4ED /* BFAppLink.h */,
+				BC67B3B885678417DFB344C897C6C172 /* BFAppLink.m */,
+				8264B903610DA36FD654D243F9DF5937 /* BFAppLink_Internal.h */,
+				FAA85663548DB25FE79C460A2AA6EF97 /* BFAppLinkNavigation.h */,
+				0A3F9B741C1D8DC81A42CCD4D86FDFDB /* BFAppLinkNavigation.m */,
+				59B1596B95E5BAA1D6E7481694A9C5F8 /* BFAppLinkResolving.h */,
+				9899731498F9F791BB8E419E96AFAE4D /* BFAppLinkReturnToRefererController.h */,
+				6BD4232CC9D66F8B1260D7B27ACFA40D /* BFAppLinkReturnToRefererController.m */,
+				A5BD30A1AA7039D1D3132135403682EE /* BFAppLinkReturnToRefererView.h */,
+				438FAC3DEC784FDC204FCF3611F5EA77 /* BFAppLinkReturnToRefererView.m */,
+				C2A122714295B61E17A251383D622627 /* BFAppLinkReturnToRefererView_Internal.h */,
+				431C7866BE0EA9951BDFB4E71657D539 /* BFAppLinkTarget.h */,
+				B562EA0A9E3A5F483B33B2B590432047 /* BFAppLinkTarget.m */,
+				DD71174F16F2F54D0A3D95FA0B88D820 /* BFMeasurementEvent.h */,
+				1D911140FF9B47CFCE7BD3CBFE765E57 /* BFMeasurementEvent.m */,
+				8573035FFF5E617B0BDC2325BE0E4536 /* BFMeasurementEvent_Internal.h */,
+				36AEBB45F3A18E48F9211A8FCAF3E740 /* BFURL.h */,
+				85F188FAB28BA921162109D3F16917C4 /* BFURL.m */,
+				C18C64B52E7D95ABAFD08D4DDB387A98 /* BFURL_Internal.h */,
+				6F802D1373E1C8B2F4DBF33128AAF714 /* BFWebViewAppLinkResolver.h */,
+				6921ACE56EC6F4DEA56E2CD305B207A2 /* BFWebViewAppLinkResolver.m */,
 			);
-			path = FirebaseInstanceID;
+			name = AppLinks;
+			sourceTree = "<group>";
+		};
+		D12E2E9C6A757E4DEBE803DB043954DB /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				A290CEDD4CE22AF51615F8C4624E05CB /* Frameworks */,
+			);
+			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
 		D3D2E40BE63BBEF08773A18AFF27AC1A /* Pods-SummerProject2016UITests */ = {
@@ -509,12 +487,39 @@
 			path = "Target Support Files/Pods-SummerProject2016UITests";
 			sourceTree = "<group>";
 		};
-		DC89104320AAF2DE32703BC5E87574EA /* Analytics */ = {
+		D62190AC60275321FB05536BC4435DDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				581FF090A6B602735F9B63CE249E32E3 /* Firebase.h */,
+				F975AAB95A701AD7168770BD1F29D916 /* GoogleSymbolUtilities.framework */,
 			);
-			name = Analytics;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E976852A2A684CE23247814BA6B50063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE33DA6E783A73F63839C957D487EABC /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA22F878CFF90F455FF50E5003AE0CDD /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				8958A43F47C5348E74514676A9EB928E /* FIRInstanceID.h */,
+				E976852A2A684CE23247814BA6B50063 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		EAA2F0A2C8A6A31B03ECCE5961683395 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				C1A7BE474D419803BBC3FF3CE2ACC43B /* AppLinks */,
+				55C7920CB0E91E66A6CE3BAB7D50283E /* Support Files */,
+				F346864BEDA5AE494D1AC558F022894C /* Tasks */,
+			);
+			path = Bolts;
 			sourceTree = "<group>";
 		};
 		EAC9D719780F21C27CF6B302A4552203 /* Targets Support Files */ = {
@@ -527,12 +532,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F6F71DA1C89346DE9EE39E5B1BB42144 /* Frameworks */ = {
+		EF252AAA7BD5B4FA45D5525E84CEC442 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1F2E88AE718079A5ABB3BA3988C989BE /* FirebaseInstanceID.framework */,
+				79C69EA579304C8AF93608A7818DD815 /* FirebaseAnalytics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F346864BEDA5AE494D1AC558F022894C /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				AFACAA137F38A1B263D0A4C46AE79BE5 /* BFCancellationToken.h */,
+				C7C3F3327FF92F8A5719AC48F96553B9 /* BFCancellationToken.m */,
+				714A80A59E3EB02324F5D71074BBBEBD /* BFCancellationTokenRegistration.h */,
+				4BBBB0BF713DE5202B800805C2C1A381 /* BFCancellationTokenRegistration.m */,
+				900C01FE1A5A9B0C273E8F9EAD4F0DF7 /* BFCancellationTokenSource.h */,
+				771BCCE62616A39FB2F48ED690DEAB8D /* BFCancellationTokenSource.m */,
+				8D360DCD90A41486A5306F8A82019871 /* BFExecutor.h */,
+				E8E7C0E79E9A71396E4DDDF0B3DD036B /* BFExecutor.m */,
+				B1D55BBFA737AAB078B921B8AB583BC8 /* BFTask.h */,
+				FE6EFD7F3A2D29173E3A655582212E6B /* BFTask.m */,
+				D969D00B16BD43139F9528BA53A28AFF /* BFTask+Exceptions.h */,
+				152EF163C4D19ADAF1DC7A89334B4E62 /* BFTask+Exceptions.m */,
+				053698F66CFA8ED51CFA60F77F30DEFD /* BFTaskCompletionSource.h */,
+				410AD29E87E0422EB57BA688F0BF7B85 /* BFTaskCompletionSource.m */,
+				9F24696616A444F687A22655396C8377 /* Bolts.h */,
+				08573BEFEB3575E0645D1C3F13E807CC /* Bolts.m */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		F78C40AFE1CB850177756131102890A5 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5354D9E63E8A927A20C7FEE92A62A19B /* Frameworks */,
+			);
+			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -967,7 +1003,7 @@
 		};
 		CF237BF20314A0981AE48A1F7C43D94A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13F8FBDAAB016A6187DE4E65FB79B47B /* Bolts.xcconfig */;
+			baseConfigurationReference = 987ADDE583324E63153CA5D884634248 /* Bolts.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -996,7 +1032,7 @@
 		};
 		D352A1B6EB59F8FB2FE83A83AE04A597 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13F8FBDAAB016A6187DE4E65FB79B47B /* Bolts.xcconfig */;
+			baseConfigurationReference = 987ADDE583324E63153CA5D884634248 /* Bolts.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

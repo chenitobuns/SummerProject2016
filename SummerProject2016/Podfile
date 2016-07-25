@@ -9,6 +9,8 @@ target 'SummerProject2016' do
   pod ‘Firebase’
   pod ‘Firebase/Auth’
   pod 'Bolts'
+  pod ‘Firebase/Storage’
+  pod ‘Firebase/Database’
 
   target 'SummerProject2016Tests' do
     inherit! :search_paths
