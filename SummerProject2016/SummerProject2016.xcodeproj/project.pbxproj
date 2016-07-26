@@ -25,6 +25,7 @@
 		E277AE601D419D350031D3D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E277AE5F1D419D350031D3D2 /* GoogleService-Info.plist */; };
 		E2D6C50B1D43302D0018228B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D6C50A1D43302D0018228B /* ProfileTableViewController.swift */; };
 		E2D6C50D1D4331140018228B /* TextInputTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D6C50C1D4331140018228B /* TextInputTableView.swift */; };
+		E2D6C5151D4807B40018228B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D6C5141D4807B40018228B /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		E277AE5F1D419D350031D3D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E2D6C50A1D43302D0018228B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		E2D6C50C1D4331140018228B /* TextInputTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputTableView.swift; sourceTree = "<group>"; };
+		E2D6C5141D4807B40018228B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		F9B4F9FAC72DF3D1C458A2F9 /* Pods_SummerProject2016UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummerProject2016UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD9BA69879210669E152D8E /* Pods-SummerProject2016Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerProject2016Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SummerProject2016Tests/Pods-SummerProject2016Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 				E277AE351D419CB80031D3D2 /* SummerProject2016.xcdatamodeld */,
 				E2D6C50A1D43302D0018228B /* ProfileTableViewController.swift */,
 				E2D6C50C1D4331140018228B /* TextInputTableView.swift */,
+				E2D6C5141D4807B40018228B /* CollectionViewController.swift */,
 			);
 			path = SummerProject2016;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				E277AE311D419CB70031D3D2 /* ViewController.swift in Sources */,
 				E2D6C50B1D43302D0018228B /* ProfileTableViewController.swift in Sources */,
 				E277AE371D419CB80031D3D2 /* SummerProject2016.xcdatamodeld in Sources */,
+				E2D6C5151D4807B40018228B /* CollectionViewController.swift in Sources */,
 				E2D6C50D1D4331140018228B /* TextInputTableView.swift in Sources */,
 				E277AE2F1D419CB70031D3D2 /* AppDelegate.swift in Sources */,
 				E25CAFC71D41DE1800A90E12 /* HomeViewController.swift in Sources */,
