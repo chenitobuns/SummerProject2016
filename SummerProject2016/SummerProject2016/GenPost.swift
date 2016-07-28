@@ -21,7 +21,7 @@ class GenPost {
     
     let _postRef: FIRDatabaseReference?
     
-    let _NSDateCreated: String!
+    private var _NSDateCreated: NSDate!
     
     init(postDesc: String, postTitle: String, postPrice: String, addByOwner: String, key: String = ""){
         self._key = key
@@ -29,7 +29,7 @@ class GenPost {
         self._postDesc = postDesc
         self._postPrice = postPrice
         self._postTitle = postTitle
-        self._NSDateCreated = dateToString(NSDate())
+        self._NSDateCreated = NSDate()
         self._postRef = nil
     }
     
@@ -55,10 +55,8 @@ class GenPost {
             _postPrice = "No price added"
         }
         
-        if let NSDateCreated = snapshot.value!["NSDateCreated"] as? String {
+        if let NSDateCreated = snapshot.value!["NSDateCreated"] as? NSDate {
             _NSDateCreated = NSDateCreated
-        } else {
-            _NSDateCreated = "Post date not added"
         }
         
         if let addByOwner = snapshot.value!["addByOwner"] as? String {
@@ -76,7 +74,20 @@ class GenPost {
         return dateFormatter.stringFromDate(date)
     }
     
+    //convert to AnyObject
+    func toAnyObject() -> AnyObject {
+        return ["postTitle": postTitle, "postDesc": postDesc,
+                "postPrice": postPrice, "addByOwner": postOwner]
+    }
+    
     //getters and setters
+    var postOwner : String {
+        get {
+            let returnOwner = _addByOwner
+            return returnOwner
+        }
+    }
+    
     var postDesc : String {
         get {
             let returnDesc = _postDesc
@@ -107,21 +118,11 @@ class GenPost {
         }
     }
 
-    var NSDateCreated: NSDate {
+    var dateCreated: String {
         get {
-            let returnNSDate = _NSDateCreated
+            let returnNSDate = dateToString(_NSDateCreated)
             return returnNSDate
         }
     }
-    
-    var formattedDateCreated: String {
-        let formatNSDate = _NSDateCreated
-        return dateToString(formatNSDate)
-    }
-    
-    
-    
-    
-    
-    
+ 
 }

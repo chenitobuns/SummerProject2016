@@ -126,7 +126,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yus-tp-wPZ" id="0Ty-Qy-uAy">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f4i-RG-eib">
@@ -199,12 +199,112 @@
                             <outlet property="delegate" destination="DQc-tn-AFu" id="loV-gz-lI2"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="sWo-h1-ehy"/>
+                    <navigationItem key="navigationItem" id="sWo-h1-ehy">
+                        <barButtonItem key="rightBarButtonItem" title="Create Post" id="4NW-S9-8qh">
+                            <connections>
+                                <action selector="addPostBtnTapped:" destination="DQc-tn-AFu" id="SPF-Ep-Mc3"/>
+                                <segue destination="LwD-Df-NVr" kind="show" identifier="addPostBtnSegue" id="5v4-CW-nCY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="addPostBtn" destination="4NW-S9-8qh" id="zwk-WU-0KD"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7a-gi-DHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1934.5" y="1317.5"/>
+        </scene>
+        <!--Add Post View Controller-->
+        <scene sceneID="ZQg-9m-oyo">
+            <objects>
+                <viewController id="LwD-Df-NVr" customClass="AddPostViewController" customModule="SummerProject2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UYa-e9-9h0"/>
+                        <viewControllerLayoutGuide type="bottom" id="jU6-v9-ura"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1hW-9t-GwO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="pG7-r0-tyk">
+                                <rect key="frame" x="36" y="104" width="303" height="450"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="akS-zI-bgb">
+                                        <rect key="frame" x="0.0" y="0.0" width="303" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="Gu6-9V-SYA"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gfQ-7n-Fa6">
+                                        <rect key="frame" x="0.0" y="141" width="303" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tE8-pG-U5a">
+                                        <rect key="frame" x="0.0" y="184" width="303" height="180"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="180" id="Ryv-Lo-PzK"/>
+                                            <constraint firstAttribute="height" constant="250" id="SPc-IN-SPX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="SPc-IN-SPX"/>
+                                            </mask>
+                                        </variation>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fy3-mC-9ZP">
+                                        <rect key="frame" x="0.0" y="377" width="303" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQR-T7-vr6">
+                                        <rect key="frame" x="0.0" y="420" width="303" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="uS4-9r-DW6"/>
+                                        </constraints>
+                                        <state key="normal" title="Publish"/>
+                                        <connections>
+                                            <action selector="publishBtnTapped:" destination="LwD-Df-NVr" eventType="touchUpInside" id="iZB-tM-ERD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="pG7-r0-tyk" secondAttribute="trailing" constant="191" id="30Y-rj-0cw"/>
+                            <constraint firstItem="pG7-r0-tyk" firstAttribute="top" secondItem="UYa-e9-9h0" secondAttribute="bottom" constant="20" id="Jkj-Zb-4SO"/>
+                            <constraint firstItem="pG7-r0-tyk" firstAttribute="leading" secondItem="1hW-9t-GwO" secondAttribute="leadingMargin" constant="119" id="Lyw-ar-KRB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pG7-r0-tyk" secondAttribute="trailing" constant="20" id="P1T-Wv-gmO"/>
+                            <constraint firstItem="pG7-r0-tyk" firstAttribute="leading" secondItem="1hW-9t-GwO" secondAttribute="leadingMargin" constant="20" id="b0E-dC-b9J"/>
+                            <constraint firstItem="pG7-r0-tyk" firstAttribute="top" secondItem="UYa-e9-9h0" secondAttribute="bottom" constant="20" id="zLn-Bc-Djg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="30Y-rj-0cw"/>
+                                <exclude reference="Lyw-ar-KRB"/>
+                                <exclude reference="zLn-Bc-Djg"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="addedDesc" destination="tE8-pG-U5a" id="4Ff-gL-LKe"/>
+                        <outlet property="addedImg" destination="akS-zI-bgb" id="WyX-rH-UGd"/>
+                        <outlet property="addedPrice" destination="Fy3-mC-9ZP" id="wmR-If-Ep2"/>
+                        <outlet property="addedTitle" destination="gfQ-7n-Fa6" id="m9E-NU-lhd"/>
+                        <outlet property="publishBtn" destination="UQR-T7-vr6" id="cu6-aC-4fw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZyL-6E-uzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1934.5" y="2053.5"/>
         </scene>
         <!--Profile-->
         <scene sceneID="UHZ-uB-Pei">
@@ -234,6 +334,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fqe-eX-xOp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.69865763187408447" green="0.93200749158859253" blue="0.92483866214752197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

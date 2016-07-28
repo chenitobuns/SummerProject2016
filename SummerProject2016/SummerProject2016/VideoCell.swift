@@ -16,7 +16,7 @@ class VideoCell: UICollectionViewCell {
     
     let thumbnailImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "taylor_swift_blank_space")
+        // imageView.image = UIImage(named: "taylor_swift_blank_space")
         imageView.contentMode = .ScaleAspectFill
         imageView.clipsToBounds = true
         return imageView
@@ -24,7 +24,7 @@ class VideoCell: UICollectionViewCell {
     
     let userProfileImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "taylor_swift_profile")
+        // imageView.image = UIImage(named: "taylor_swift_profile")
         imageView.layer.cornerRadius = 22
         imageView.layer.masksToBounds = true
         return imageView
@@ -39,14 +39,14 @@ class VideoCell: UICollectionViewCell {
     let titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Taylor Swift - Blank Space"
+        // label.text = "Taylor Swift - Blank Space"
         return label
     }()
     
     let subtitleTextView: UITextView = {
         let textView = UITextView()
         textView.translatesAutoresizingMaskIntoConstraints = false
-        textView.text = "TaylorSwiftVEVO • 1,604,684,607 views • 2 years ago"
+        // textView.text = "TaylorSwiftVEVO • 1,604,684,607 views • 2 years ago"
         textView.textContainerInset = UIEdgeInsetsMake(0, -4, 0, 0)
         textView.textColor = UIColor.lightGrayColor()
         return textView
