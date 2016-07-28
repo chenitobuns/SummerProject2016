@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -126,7 +126,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yus-tp-wPZ" id="0Ty-Qy-uAy">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f4i-RG-eib">
@@ -229,21 +229,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="pG7-r0-tyk">
-                                <rect key="frame" x="36" y="104" width="303" height="450"/>
+                                <rect key="frame" x="36" y="104" width="303" height="493"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="akS-zI-bgb">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="akS-zI-bgb">
                                         <rect key="frame" x="0.0" y="0.0" width="303" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="Gu6-9V-SYA"/>
                                         </constraints>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gfQ-7n-Fa6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yww-yu-cPb">
                                         <rect key="frame" x="0.0" y="141" width="303" height="30"/>
+                                        <state key="normal" title="Upload Image"/>
+                                        <connections>
+                                            <action selector="addImage:" destination="LwD-Df-NVr" eventType="touchUpInside" id="Teq-8e-w8f"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gfQ-7n-Fa6">
+                                        <rect key="frame" x="0.0" y="184" width="303" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tE8-pG-U5a">
-                                        <rect key="frame" x="0.0" y="184" width="303" height="180"/>
+                                        <rect key="frame" x="0.0" y="227" width="303" height="180"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="Ryv-Lo-PzK"/>
                                             <constraint firstAttribute="height" constant="250" id="SPc-IN-SPX"/>
@@ -257,12 +264,12 @@
                                         </variation>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fy3-mC-9ZP">
-                                        <rect key="frame" x="0.0" y="377" width="303" height="30"/>
+                                        <rect key="frame" x="0.0" y="420" width="303" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQR-T7-vr6">
-                                        <rect key="frame" x="0.0" y="420" width="303" height="30"/>
+                                        <rect key="frame" x="0.0" y="463" width="303" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="uS4-9r-DW6"/>
                                         </constraints>
@@ -300,6 +307,7 @@
                         <outlet property="addedPrice" destination="Fy3-mC-9ZP" id="wmR-If-Ep2"/>
                         <outlet property="addedTitle" destination="gfQ-7n-Fa6" id="m9E-NU-lhd"/>
                         <outlet property="publishBtn" destination="UQR-T7-vr6" id="cu6-aC-4fw"/>
+                        <outlet property="uploadBtn" destination="pG7-r0-tyk" id="Wb3-n1-DfW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZyL-6E-uzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -350,5 +358,6 @@
         <image name="home" width="24" height="24"/>
         <image name="settings" width="24" height="24"/>
         <image name="shopping-cart-remove" width="24" height="24"/>
+        <image name="up-arrow" width="256" height="256"/>
     </resources>
 </document>
